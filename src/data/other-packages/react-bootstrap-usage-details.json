@@ -1,0 +1,1028 @@
+{
+  "Alert": {
+    "instances": [
+      {
+        "importInfo": {
+          "imported": "Alert",
+          "local": "Alert",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {
+          "bsStyle": "danger"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/components/sales_invite_clients/SingleClientInviteForm.jsx",
+          "start": {
+            "line": 188,
+            "column": 11
+          }
+        }
+      }
+    ]
+  },
+  "Badge": {
+    "instances": [
+      {
+        "importInfo": {
+          "imported": "Badge",
+          "local": "Badge",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {
+          "pill": null,
+          "className": "(Identifier)",
+          "style": "(Identifier)"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/components/shared/icn_block_card_with_badge/IcnBlockCardWithBadge/IcnBlockCardWithBadge.jsx",
+          "start": {
+            "line": 57,
+            "column": 7
+          }
+        }
+      }
+    ]
+  },
+  "Col": {
+    "instances": [
+      {
+        "importInfo": {
+          "imported": "Col",
+          "local": "Col",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {},
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/components/shared/icn_cron/IcnCron.jsx",
+          "start": {
+            "line": 49,
+            "column": 5
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Col",
+          "local": "Col",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {},
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/components/shared/icn_cron/IcnCron.jsx",
+          "start": {
+            "line": 145,
+            "column": 5
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Col",
+          "local": "Col",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {
+          "xs": 3,
+          "className": "(MemberExpression)"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/components/subscription_review/modals/UpdateTransferEffectiveDateModal/UpdateTransferEffectiveDateModal.jsx",
+          "start": {
+            "line": 110,
+            "column": 13
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Col",
+          "local": "Col",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {
+          "xs": 5
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/components/subscription_review/modals/UpdateTransferEffectiveDateModal/UpdateTransferEffectiveDateModal.jsx",
+          "start": {
+            "line": 114,
+            "column": 13
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Col",
+          "local": "Col",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {
+          "xs": 4
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/components/subscription_review/modals/UpdateTransferEffectiveDateModal/UpdateTransferEffectiveDateModal.jsx",
+          "start": {
+            "line": 121,
+            "column": 13
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Col",
+          "local": "Col",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {
+          "key": "(CallExpression)"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/containers/integration_partners_dashboard/modal/IPTemplateModal.jsx",
+          "start": {
+            "line": 215,
+            "column": 39
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Col",
+          "local": "Col",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {},
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/containers/integration_partners_dashboard/modal/IPTemplateModal.jsx",
+          "start": {
+            "line": 355,
+            "column": 11
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Col",
+          "local": "Col",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {},
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/containers/integration_partners_dashboard/modal/IPTemplateModal.jsx",
+          "start": {
+            "line": 365,
+            "column": 11
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Col",
+          "local": "Col",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {},
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/containers/integration_partners_dashboard/modal/IPTemplateModal.jsx",
+          "start": {
+            "line": 376,
+            "column": 11
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Col",
+          "local": "Col",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {},
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/containers/integration_partners_dashboard/modal/IPTemplateModal.jsx",
+          "start": {
+            "line": 384,
+            "column": 11
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Col",
+          "local": "Col",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {
+          "md": 8
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/containers/investor_representative/questionnaire/IRSummaryAndAgreement.jsx",
+          "start": {
+            "line": 46,
+            "column": 9
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Col",
+          "local": "Col",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {
+          "md": 8
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/containers/investor_representative/questionnaire/IRSummaryAndAgreement.jsx",
+          "start": {
+            "line": 70,
+            "column": 9
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Col",
+          "local": "Col",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {
+          "md": 8
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/containers/investor_representative/questionnaire/IRSummaryAndAgreement.jsx",
+          "start": {
+            "line": 91,
+            "column": 9
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Col",
+          "local": "Col",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {
+          "md": 8
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/containers/investor_representative/questionnaire/IRSummaryAndAgreement.jsx",
+          "start": {
+            "line": 111,
+            "column": 9
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Col",
+          "local": "Col",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {
+          "md": 8
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/containers/investor_representative/questionnaire/IRSummaryAndAgreement.jsx",
+          "start": {
+            "line": 132,
+            "column": 9
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Col",
+          "local": "Col",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {
+          "md": 8
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/containers/investor_representative/questionnaire/IRSummaryAndAgreement.jsx",
+          "start": {
+            "line": 156,
+            "column": 9
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Col",
+          "local": "Col",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {
+          "md": "2"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/containers/mass_mailer/form/MassMailerForm.jsx",
+          "start": {
+            "line": 173,
+            "column": 11
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Col",
+          "local": "Col",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {
+          "md": "6"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/containers/mass_mailer/form/MassMailerForm.jsx",
+          "start": {
+            "line": 181,
+            "column": 11
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Col",
+          "local": "Col",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {},
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/containers/mass_mailer/show/MassMailerShow.jsx",
+          "start": {
+            "line": 99,
+            "column": 13
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Col",
+          "local": "Col",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {},
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/containers/mass_mailer/show/MassMailerShow.jsx",
+          "start": {
+            "line": 167,
+            "column": 13
+          }
+        }
+      }
+    ]
+  },
+  "Row": {
+    "instances": [
+      {
+        "importInfo": {
+          "imported": "Row",
+          "local": "Row",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {},
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/components/shared/icn_cron/IcnCron.jsx",
+          "start": {
+            "line": 164,
+            "column": 7
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Row",
+          "local": "Row",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {},
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/components/shared/icn_cron/IcnCron.jsx",
+          "start": {
+            "line": 169,
+            "column": 7
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Row",
+          "local": "Row",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {},
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/components/subscription_review/modals/UpdateTransferEffectiveDateModal/UpdateTransferEffectiveDateModal.jsx",
+          "start": {
+            "line": 97,
+            "column": 9
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Row",
+          "local": "Row",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {},
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/components/subscription_review/modals/UpdateTransferEffectiveDateModal/UpdateTransferEffectiveDateModal.jsx",
+          "start": {
+            "line": 109,
+            "column": 11
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Row",
+          "local": "Row",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {
+          "key": "(CallExpression)"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/containers/integration_partners_dashboard/modal/IPTemplateModal.jsx",
+          "start": {
+            "line": 214,
+            "column": 11
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Row",
+          "local": "Row",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {},
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/containers/integration_partners_dashboard/modal/IPTemplateModal.jsx",
+          "start": {
+            "line": 354,
+            "column": 9
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Row",
+          "local": "Row",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {},
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/containers/integration_partners_dashboard/modal/IPTemplateModal.jsx",
+          "start": {
+            "line": 364,
+            "column": 9
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Row",
+          "local": "Row",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {},
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/containers/integration_partners_dashboard/modal/IPTemplateModal.jsx",
+          "start": {
+            "line": 375,
+            "column": 9
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Row",
+          "local": "Row",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {},
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/containers/investor_representative/questionnaire/IRSummaryAndAgreement.jsx",
+          "start": {
+            "line": 45,
+            "column": 7
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Row",
+          "local": "Row",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {},
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/containers/investor_representative/questionnaire/IRSummaryAndAgreement.jsx",
+          "start": {
+            "line": 69,
+            "column": 7
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Row",
+          "local": "Row",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {},
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/containers/investor_representative/questionnaire/IRSummaryAndAgreement.jsx",
+          "start": {
+            "line": 90,
+            "column": 7
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Row",
+          "local": "Row",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {},
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/containers/investor_representative/questionnaire/IRSummaryAndAgreement.jsx",
+          "start": {
+            "line": 110,
+            "column": 7
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Row",
+          "local": "Row",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {},
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/containers/investor_representative/questionnaire/IRSummaryAndAgreement.jsx",
+          "start": {
+            "line": 131,
+            "column": 7
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Row",
+          "local": "Row",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {},
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/containers/investor_representative/questionnaire/IRSummaryAndAgreement.jsx",
+          "start": {
+            "line": 155,
+            "column": 7
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Row",
+          "local": "Row",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {},
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/containers/mass_mailer/form/MassMailerForm.jsx",
+          "start": {
+            "line": 172,
+            "column": 9
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Row",
+          "local": "Row",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {
+          "className": "(MemberExpression)"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/containers/mass_mailer/form/MassMailerForm.jsx",
+          "start": {
+            "line": 212,
+            "column": 13
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Row",
+          "local": "Row",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {
+          "className": "mt-4"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/containers/mass_mailer/show/MassMailerShow.jsx",
+          "start": {
+            "line": 98,
+            "column": 11
+          }
+        }
+      }
+    ]
+  },
+  "Container": {
+    "instances": [
+      {
+        "importInfo": {
+          "imported": "Container",
+          "local": "Container",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {},
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/components/shared/icn_form/icn_form_schema/custom_fields/ErrorsBanner.jsx",
+          "start": {
+            "line": 9,
+            "column": 5
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Container",
+          "local": "Container",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {},
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/containers/pre_approval_questionnaire/entry/PreApprovalQuestionnaireEntry.jsx",
+          "start": {
+            "line": 140,
+            "column": 11
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Container",
+          "local": "Container",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {},
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/containers/redemption_supplemental_form/entry/RedemptionSupplementalFormEntry.jsx",
+          "start": {
+            "line": 94,
+            "column": 11
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Container",
+          "local": "Container",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {},
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/containers/supplemental_form/entry/SupplementalFormEntry.jsx",
+          "start": {
+            "line": 195,
+            "column": 13
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Container",
+          "local": "Container",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {
+          "fluid": null,
+          "className": "(MemberExpression)"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/modules/investment_opportunity/containers/Entry/Entry.jsx",
+          "start": {
+            "line": 150,
+            "column": 7
+          }
+        }
+      }
+    ]
+  },
+  "Tooltip": {
+    "instances": [
+      {
+        "importInfo": {
+          "imported": "Tooltip",
+          "local": "Tooltip",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {
+          "id": "tooltip",
+          "className": "(MemberExpression)"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/components/team_management/teams/cell_renderers/actions/ActionsCell.jsx",
+          "start": {
+            "line": 64,
+            "column": 15
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Tooltip",
+          "local": "Tooltip",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {
+          "id": "tooltip",
+          "className": "(MemberExpression)"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/components/team_management/teams/cell_renderers/actions/ActionsCell.jsx",
+          "start": {
+            "line": 96,
+            "column": 15
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Tooltip",
+          "local": "Tooltip",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {
+          "id": "(TemplateLiteral)"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/containers/mass_mailer/form/recipients/MassMailerRecipients.jsx",
+          "start": {
+            "line": 161,
+            "column": 15
+          }
+        }
+      }
+    ]
+  },
+  "OverlayTrigger": {
+    "instances": [
+      {
+        "importInfo": {
+          "imported": "OverlayTrigger",
+          "local": "OverlayTrigger",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {
+          "placement": "bottom",
+          "delayShow": 500,
+          "overlay": "(JSXElement)"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/components/team_management/teams/cell_renderers/actions/ActionsCell.jsx",
+          "start": {
+            "line": 60,
+            "column": 11
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "OverlayTrigger",
+          "local": "OverlayTrigger",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {
+          "placement": "bottom",
+          "delayShow": 500,
+          "overlay": "(JSXElement)"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/components/team_management/teams/cell_renderers/actions/ActionsCell.jsx",
+          "start": {
+            "line": 92,
+            "column": 11
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "OverlayTrigger",
+          "local": "OverlayTrigger",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {
+          "key": "(TemplateLiteral)",
+          "placement": "left",
+          "overlay": "(JSXElement)"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/containers/mass_mailer/form/recipients/MassMailerRecipients.jsx",
+          "start": {
+            "line": 157,
+            "column": 11
+          }
+        }
+      }
+    ]
+  },
+  "Collapse": {
+    "instances": [
+      {
+        "importInfo": {
+          "imported": "Collapse",
+          "local": "Collapse",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {
+          "in": "(UnaryExpression)"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/containers/data_dashboard/index/DataDashboardIndex.jsx",
+          "start": {
+            "line": 407,
+            "column": 11
+          }
+        }
+      }
+    ]
+  },
+  "Spinner": {
+    "instances": [
+      {
+        "importInfo": {
+          "imported": "Spinner",
+          "local": "Spinner",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {
+          "className": "loading-spinner",
+          "animation": "border"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/containers/sso_registration/RegistrationCompletionPage/CompletionPageForm/Field/Dropdown/index.jsx",
+          "start": {
+            "line": 50,
+            "column": 20
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Spinner",
+          "local": "Spinner",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {
+          "id": "registration-completion-submitting-spinner",
+          "style": "(ObjectExpression)",
+          "animation": "border"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/containers/sso_registration/RegistrationCompletionPage/CompletionPageForm/index.jsx",
+          "start": {
+            "line": 148,
+            "column": 9
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Spinner",
+          "local": "Spinner",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {
+          "id": "registration-completion-page-form-loading-spinner",
+          "animation": "border"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/eribeiro/Developer/icapital/icn/icn_react/src/containers/sso_registration/RegistrationCompletionPage/index.jsx",
+          "start": {
+            "line": 70,
+            "column": 13
+          }
+        }
+      }
+    ]
+  }
+}
