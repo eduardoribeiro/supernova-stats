@@ -4,10 +4,12 @@ import {
   Chip,
   Stack,
   TreeItem,
+  Typography,
 } from '@icapitalnetwork/supernova-core';
 import { CountedDataItem } from '../../modules/Dashboard/hooks/useDashboard';
 
 import { USERLOC } from '../../main';
+import CustomIcon from '../CustomIcon';
 
 type SubDetailComponentTreeProps = {
   action: (componentName: string) => void;
@@ -57,7 +59,7 @@ const SubDetailComponentTree: SubDetailComponentTreeType = ({
             <TreeItem 
               key={`${reactKey}-sub-${subData.importInfo?.imported || subData.importInfo?.local}`}
               nodeId={`${reactKey}-sub-${subData.importInfo?.imported || subData.importInfo?.local}`}
-              label={<><Chip color="warning" sx={{ minWidth: 35 }} label={subData.count} size="small"></Chip>&nbsp;&nbsp;{subData.importInfo?.local}</>}
+              label={<Stack direction="row" alignItems="center"><Chip color="warning" sx={{ minWidth: 35 }} label={subData.count} size="small"></Chip><Typography sx={(theme) => ({ padding: theme.spacing(0, 0.5) })}>{subData.importInfo?.local}</Typography><CustomIcon icon={subData?.detail ?? null} /></Stack>}
             />
           ) }
         </Box>

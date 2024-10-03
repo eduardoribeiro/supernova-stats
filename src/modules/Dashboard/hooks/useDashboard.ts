@@ -44,6 +44,7 @@ export type ListDataItem = {
   location?: ItemLocation;
   props?: {};
   propsSpread?: boolean;
+  detail?: string;
 };
 
 export type InstancedDataItem = {
@@ -153,7 +154,7 @@ const useDashboard = () => {
           innerDetail[a]?.instances?.filter((e: ListDataItem) => e?.importInfo?.moduleName?.match(file));
 
         if (dependant && dependant.length)
-          occurrences.instances = occurrences.instances.concat(dependant);
+          occurrences.instances = occurrences.instances?.concat(dependant.map(e => ({ ...e, detail })));
       });
     });
     return aggregateData(occurrences.instances ?? []);
