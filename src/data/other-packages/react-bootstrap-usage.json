@@ -1,11 +1,11 @@
 {
-  "Col": 20,
-  "Row": 17,
-  "Container": 5,
-  "OverlayTrigger": 3,
+  "Col": 11,
+  "Row": 9,
   "Spinner": 3,
-  "Tooltip": 3,
+  "Container": 2,
   "Alert": 1,
   "Badge": 1,
-  "Collapse": 1
+  "Collapse": 1,
+  "OverlayTrigger": 1,
+  "Tooltip": 1
 }

@@ -4,16 +4,20 @@ import {
   Drawer,
   IconButton,
   IconSizes,
+  List,
   SvgIcon,
   Typography,
 } from '@icapitalnetwork/supernova-core';
 import { ReactElement } from 'react';
 import CloseIcon from '@mui/icons-material/Close';
+import { CountedDataItem } from '../../modules/Dashboard/hooks/useDashboard';
+import ComponentDetailsItem from '../ComponentDetailsItem';
 
 type ComponentDetailsType = {
-  selectedComponent: unknown[];
+  selectedComponent: CountedDataItem[];
   open: boolean;
-  toggleDrawer: () => false | void
+  toggleDrawer: () => false | void;
+  getSharedDepedency: (file: string, isSubComponent: boolean) => CountedDataItem[] | void;
 };
 
 export type ComponentDetailsProps = (
@@ -24,20 +28,31 @@ export const ComponentDetails: ComponentDetailsProps = ({
   selectedComponent,
   open,
   toggleDrawer,
+  getSharedDepedency,
 }) => {
-  console.log(open)
+  
   return (
-    <Drawer anchor="right" open={open} onClose={toggleDrawer} variant="persistent">
+    <Drawer anchor="right" open={open} variant="persistent">
       <Container
         sx={{
           display: 'flex',
           flexDirection: 'column',
-          justifyContent: 'center',
+          justifyContent: 'Start',
+          paddingTop: 4,
+          maxWidth: "80vw",
           height: '100%',
         }}
       >
         <Box role="presentation">
-          <Typography variant="h3">{selectedComponent[0]?.importInfo?.imported}</Typography>
+          <Typography variant="h3">{selectedComponent[0]?.importInfo?.imported ?? selectedComponent[0]?.importInfo?.local}</Typography>
+        </Box>
+        <br />
+        <Box sx={{ overflow: 'auto' }}>
+          <List>
+            {selectedComponent &&
+              selectedComponent.map((component) => 
+                <ComponentDetailsItem key={component.location?.file} component={component} getSharedDepedency={getSharedDepedency} />)}
+          </List>
         </Box>
         <div
           style={{
@@ -47,7 +62,7 @@ export const ComponentDetails: ComponentDetailsProps = ({
           }}
         >
           <IconButton
-            onClick={toggleDrawer(false)}
+            onClick={toggleDrawer}
             sx={(theme) => ({
               marginTop: theme.spacing(0.5),
               marginRight: theme.spacing(0.5),
