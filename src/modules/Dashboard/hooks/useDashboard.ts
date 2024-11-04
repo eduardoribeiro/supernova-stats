@@ -79,7 +79,9 @@ export type CountedDataItem = ListDataItem & {
 
 const aggregateData = (data: ListDataItem[]) => data?.reduce((prev: CountedDataItem[], component) => {
   const found = prev.find((e) => 
-    e.location?.file == component.location?.file && (e.importInfo?.imported == component.importInfo?.imported || e.importInfo?.local == component.importInfo?.local));
+    e.location?.file == component.location?.file && (
+      (e.importInfo?.imported && component.importInfo?.imported && e.importInfo?.imported == component.importInfo?.imported) || 
+      (e.importInfo?.local && component.importInfo?.local && e.importInfo?.local == component.importInfo?.local)));
   if (!!found) {
     const index = prev.indexOf(found);
     prev.splice(index, 1, { ...found, count: found.count+1 });
@@ -146,6 +148,7 @@ const useDashboard = () => {
 
   const getSharedDepedency = (file: string, isSubComponent: boolean) => {
     const occurrences: InstancedDataItem = { instances: [] };
+    console.log(file)
     Object.keys(DetailData).forEach(detail => {
       const innerDetail = DetailData[detail];
       Object.keys(innerDetail).forEach(a => {

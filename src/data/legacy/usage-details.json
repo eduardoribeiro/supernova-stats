@@ -12,8 +12,8 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/App.jsx",
           "start": {
-            "line": 964,
-            "column": 42
+            "line": 973,
+            "column": 58
           }
         }
       },
@@ -130,10 +130,29 @@
         },
         "propsSpread": false,
         "location": {
+          "file": "/Users/lclemente/proj/icn/icn_react/src/components/shared/loading/Loading.jsx",
+          "start": {
+            "line": 24,
+            "column": 9
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "IcnSpinner",
+          "local": "IcnSpinner",
+          "moduleName": "components/shared/icn_spinner/IcnSpinner",
+          "importType": "ImportSpecifier"
+        },
+        "props": {
+          "isFetching": null
+        },
+        "propsSpread": false,
+        "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/investor_profile_versions/show/InvestorProfileVersionsShow.jsx",
           "start": {
-            "line": 58,
-            "column": 27
+            "line": 51,
+            "column": 5
           }
         }
       },
@@ -151,7 +170,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/investor_profile_versions/update/InvestorProfileVersionsUpdate.jsx",
           "start": {
-            "line": 111,
+            "line": 97,
             "column": 41
           }
         }
@@ -170,7 +189,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/list/FormTemplatesList.jsx",
           "start": {
-            "line": 170,
+            "line": 166,
             "column": 29
           }
         }
@@ -189,24 +208,8 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/show/versions_list/TemplateVersionsList.jsx",
           "start": {
-            "line": 38,
+            "line": 34,
             "column": 5
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "IcnSpinner",
-          "moduleName": "components/shared/icn_spinner/IcnSpinner",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {},
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/lclemente/proj/icn/icn_react/src/containers/integration_partners_dashboard/templates/IPTemplates.jsx",
-          "start": {
-            "line": 76,
-            "column": 7
           }
         }
       },
@@ -281,7 +284,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/configuration_master/components/modals/components/PreviewAffectedResources.jsx",
           "start": {
-            "line": 49,
+            "line": 50,
             "column": 7
           }
         }
@@ -320,8 +323,24 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/App.jsx",
           "start": {
-            "line": 996,
+            "line": 1011,
             "column": 13
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "local": "LayoutGlobal",
+          "moduleName": "components/shared/layout_global/LayoutGlobal",
+          "importType": "ImportDefaultSpecifier"
+        },
+        "props": {},
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/lclemente/proj/icn/icn_react/src/modules/passport/App.jsx",
+          "start": {
+            "line": 36,
+            "column": 42
           }
         }
       }
@@ -344,6 +363,25 @@
           "file": "/Users/lclemente/proj/icn/icn_react/src/__tests__/mocks/userSavedViews.mock.js",
           "start": {
             "line": 23,
+            "column": 5
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "UserSavedViewsProvider",
+          "local": "UserSavedViewsProvider",
+          "moduleName": "components/shared/user_saved_views/UserSavedViewsContext",
+          "importType": "ImportSpecifier"
+        },
+        "props": {
+          "value": "(Identifier)"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/lclemente/proj/icn/icn_react/src/components/super_nova/userSavedViews/UserSavedViews.tsx",
+          "start": {
+            "line": 63,
             "column": 5
           }
         }
@@ -415,7 +453,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/document_manager/dm_file_form/DMFileForm.jsx",
           "start": {
-            "line": 747,
+            "line": 761,
             "column": 13
           }
         }
@@ -438,7 +476,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/document_manager/dm_library_file_form/DMLibraryFileForm.jsx",
           "start": {
-            "line": 250,
+            "line": 240,
             "column": 11
           }
         }
@@ -534,7 +572,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/components/investor_profile/InvestorProfilePreview/index.jsx",
           "start": {
-            "line": 111,
+            "line": 102,
             "column": 17
           }
         }
@@ -556,7 +594,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/list/components/create_form_template_modal/CreateFormTemplateModal.jsx",
           "start": {
-            "line": 85,
+            "line": 88,
             "column": 9
           }
         }
@@ -584,7 +622,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/new_investor_profile/NewInvestorProfile.jsx",
           "start": {
-            "line": 241,
+            "line": 245,
             "column": 23
           }
         }
@@ -606,7 +644,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/pre_approval_questionnaire/entry/PreApprovalQuestionnaireEntry.jsx",
           "start": {
-            "line": 132,
+            "line": 139,
             "column": 9
           }
         }
@@ -630,7 +668,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/supplemental_form/entry/SupplementalFormEntry.jsx",
           "start": {
-            "line": 186,
+            "line": 175,
             "column": 11
           }
         }
@@ -667,6 +705,30 @@
           "importType": "ImportDefaultSpecifier"
         },
         "props": {
+          "schema": "(MemberExpression)",
+          "uiSchema": "(MemberExpression)",
+          "formData": "(LogicalExpression)",
+          "onSubmit": "(Identifier)",
+          "handleAction": "(Identifier)",
+          "formRef": "(ArrowFunctionExpression)",
+          "hideErrorBanner": null
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/lclemente/proj/icn/icn_react/src/modules/bulk_investment/pages/pre_approval_quest/pre_approval_quest_drawer/PreApprovalQuestDrawer.jsx",
+          "start": {
+            "line": 65,
+            "column": 13
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "local": "IcnFormSchema",
+          "moduleName": "components/shared/icn_form/icn_form_schema/IcnFormSchema",
+          "importType": "ImportDefaultSpecifier"
+        },
+        "props": {
           "formData": "(Identifier)",
           "components": "(Identifier)",
           "schema": "(MemberExpression)",
@@ -677,7 +739,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/configuration_master/components/form_builder_container/ResourceFormContainer.jsx",
           "start": {
-            "line": 19,
+            "line": 13,
             "column": 5
           }
         }
@@ -699,7 +761,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/initiate_transfer/pages/transferee_information/index.jsx",
           "start": {
-            "line": 22,
+            "line": 25,
             "column": 5
           }
         }
@@ -722,7 +784,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/letter_of_authorization/pages/update_investor_information/FormDrawer/FormDrawer.jsx",
           "start": {
-            "line": 45,
+            "line": 42,
             "column": 13
           }
         }
@@ -812,7 +874,7 @@
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/investor_representative/tables/investors_table/cell_renderers/IRInvestorsActionsCellRender.jsx",
           "start": {
             "line": 14,
-            "column": 5
+            "column": 10
           }
         }
       },
@@ -831,8 +893,8 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/investor_representative/tables/managers_table/cell_renderers/IRManagersActionsCellRender.jsx",
           "start": {
-            "line": 9,
-            "column": 5
+            "line": 8,
+            "column": 10
           }
         }
       }
@@ -1285,7 +1347,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/investor_relations/subscription_reviewer/sr_create_responsibility/SRCreateResponsibilityModal.jsx",
           "start": {
-            "line": 82,
+            "line": 70,
             "column": 13
           }
         }
@@ -1311,7 +1373,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/investor_relations/subscription_reviewer/sr_create_responsibility/SRCreateResponsibilityModal.jsx",
           "start": {
-            "line": 107,
+            "line": 95,
             "column": 11
           }
         }
@@ -1337,7 +1399,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/investor_relations/subscription_reviewer/sr_edit_responsibility_modal/SREditResponsibilityModal.jsx",
           "start": {
-            "line": 38,
+            "line": 33,
             "column": 11
           }
         }
@@ -1828,7 +1890,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/subscription_workflow_status/sws_edit_combination_modal/SWSEditCombinationModal.jsx",
           "start": {
-            "line": 210,
+            "line": 205,
             "column": 21
           }
         }
@@ -1852,7 +1914,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/subscription_workflow_status/sws_edit_combination_modal/SWSEditCombinationModal.jsx",
           "start": {
-            "line": 227,
+            "line": 221,
             "column": 21
           }
         }
@@ -1876,7 +1938,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/subscription_workflow_status/sws_edit_combination_modal/SWSEditCombinationModal.jsx",
           "start": {
-            "line": 245,
+            "line": 238,
             "column": 21
           }
         }
@@ -2069,25 +2131,6 @@
         },
         "propsSpread": false,
         "location": {
-          "file": "/Users/lclemente/proj/icn/icn_react/src/components/shared/modals/IcnErrorModal/IcnErrorModal.jsx",
-          "start": {
-            "line": 14,
-            "column": 7
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "IcnGenericModal",
-          "moduleName": "components/shared/modals/IcnGenericModal/IcnGenericModal",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "isOpen": "(MemberExpression)",
-          "onRequestClose": "(MemberExpression)"
-        },
-        "propsSpread": false,
-        "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/shared/modals/IcnSimpleChoiceModal/IcnSimpleChoiceModal.jsx",
           "start": {
             "line": 14,
@@ -2186,7 +2229,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/sales_invite_clients/SingleClientInviteForm.jsx",
           "start": {
-            "line": 190,
+            "line": 193,
             "column": 9
           }
         }
@@ -2204,7 +2247,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/sales_invite_clients/SingleClientInviteForm.jsx",
           "start": {
-            "line": 199,
+            "line": 202,
             "column": 9
           }
         }
@@ -2222,7 +2265,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/sales_invite_clients/SingleClientInviteForm.jsx",
           "start": {
-            "line": 208,
+            "line": 211,
             "column": 9
           }
         }
@@ -2240,7 +2283,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/sales_invite_clients/SingleClientInviteForm.jsx",
           "start": {
-            "line": 221,
+            "line": 224,
             "column": 9
           }
         }
@@ -2258,7 +2301,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/sales_invite_clients/SingleClientInviteForm.jsx",
           "start": {
-            "line": 246,
+            "line": 249,
             "column": 11
           }
         }
@@ -2276,7 +2319,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/sales_invite_clients/SingleClientInviteForm.jsx",
           "start": {
-            "line": 316,
+            "line": 319,
             "column": 11
           }
         }
@@ -2294,7 +2337,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/sales_invite_clients/SingleClientInviteForm.jsx",
           "start": {
-            "line": 384,
+            "line": 387,
             "column": 11
           }
         }
@@ -3057,7 +3100,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/investor_representative/questionnaire/IRQuestionnaireForm.jsx",
           "start": {
-            "line": 100,
+            "line": 103,
             "column": 11
           }
         }
@@ -3075,7 +3118,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/investor_representative/questionnaire/IRQuestionnaireForm.jsx",
           "start": {
-            "line": 134,
+            "line": 135,
             "column": 9
           }
         }
@@ -3093,7 +3136,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/investor_representative/questionnaire/sections/AddressStandard.jsx",
           "start": {
-            "line": 48,
+            "line": 59,
             "column": 13
           }
         }
@@ -3111,7 +3154,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/investor_representative/questionnaire/sections/AddressStandard.jsx",
           "start": {
-            "line": 71,
+            "line": 82,
             "column": 13
           }
         }
@@ -3129,7 +3172,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/investor_representative/questionnaire/sections/AddressStandard.jsx",
           "start": {
-            "line": 86,
+            "line": 97,
             "column": 13
           }
         }
@@ -3147,7 +3190,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/investor_representative/questionnaire/sections/AddressStandard.jsx",
           "start": {
-            "line": 102,
+            "line": 113,
             "column": 15
           }
         }
@@ -3165,7 +3208,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/investor_representative/questionnaire/sections/AddressStandard.jsx",
           "start": {
-            "line": 116,
+            "line": 127,
             "column": 15
           }
         }
@@ -3184,7 +3227,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/investor_representative/questionnaire/sections/AddressStandard.jsx",
           "start": {
-            "line": 161,
+            "line": 168,
             "column": 15
           }
         }
@@ -3203,7 +3246,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/investor_representative/questionnaire/sections/AddressStandard.jsx",
           "start": {
-            "line": 177,
+            "line": 184,
             "column": 13
           }
         }
@@ -3221,7 +3264,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/investor_representative/questionnaire/sections/Employment.jsx",
           "start": {
-            "line": 55,
+            "line": 43,
             "column": 7
           }
         }
@@ -3239,7 +3282,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/investor_representative/questionnaire/sections/Employment.jsx",
           "start": {
-            "line": 80,
+            "line": 72,
             "column": 7
           }
         }
@@ -3257,7 +3300,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/investor_representative/questionnaire/sections/Employment.jsx",
           "start": {
-            "line": 95,
+            "line": 93,
             "column": 7
           }
         }
@@ -3276,7 +3319,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/investor_representative/questionnaire/sections/Employment.jsx",
           "start": {
-            "line": 110,
+            "line": 111,
             "column": 7
           }
         }
@@ -3294,7 +3337,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/investor_representative/questionnaire/sections/Income.jsx",
           "start": {
-            "line": 54,
+            "line": 44,
             "column": 11
           }
         }
@@ -3312,7 +3355,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/investor_representative/questionnaire/sections/Income.jsx",
           "start": {
-            "line": 84,
+            "line": 74,
             "column": 11
           }
         }
@@ -3331,7 +3374,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/investor_representative/questionnaire/sections/Income.jsx",
           "start": {
-            "line": 114,
+            "line": 104,
             "column": 11
           }
         }
@@ -3349,7 +3392,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/investor_representative/questionnaire/sections/NetWorth.jsx",
           "start": {
-            "line": 34,
+            "line": 27,
             "column": 11
           }
         }
@@ -3368,7 +3411,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/investor_representative/questionnaire/sections/NetWorth.jsx",
           "start": {
-            "line": 63,
+            "line": 56,
             "column": 11
           }
         }
@@ -3422,7 +3465,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/login/multifactor_authentication/MfaVerification.jsx",
           "start": {
-            "line": 213,
+            "line": 217,
             "column": 19
           }
         }
@@ -3597,60 +3640,6 @@
           "importType": "ImportDefaultSpecifier"
         },
         "props": {
-          "size": "full_fluid"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/lclemente/proj/icn/icn_react/src/containers/registration/complete_profile/sections/AddressStandard.jsx",
-          "start": {
-            "line": 59,
-            "column": 11
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "FieldWrap",
-          "moduleName": "components/shared/icn_form/field_wrap/FieldWrap",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "size": "full_fluid"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/lclemente/proj/icn/icn_react/src/containers/registration/complete_profile/sections/AddressStandard.jsx",
-          "start": {
-            "line": 83,
-            "column": 11
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "FieldWrap",
-          "moduleName": "components/shared/icn_form/field_wrap/FieldWrap",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "size": "full_fluid"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/lclemente/proj/icn/icn_react/src/containers/registration/complete_profile/sections/AddressStandard.jsx",
-          "start": {
-            "line": 102,
-            "column": 11
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "FieldWrap",
-          "moduleName": "components/shared/icn_form/field_wrap/FieldWrap",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
           "size": "sm",
           "classNames": "(ObjectExpression)"
         },
@@ -3658,45 +3647,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/registration/complete_profile/sections/AddressStandard.jsx",
           "start": {
-            "line": 122,
-            "column": 13
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "FieldWrap",
-          "moduleName": "components/shared/icn_form/field_wrap/FieldWrap",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "size": "sm",
-          "classNames": "(ObjectExpression)"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/lclemente/proj/icn/icn_react/src/containers/registration/complete_profile/sections/AddressStandard.jsx",
-          "start": {
-            "line": 141,
-            "column": 13
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "FieldWrap",
-          "moduleName": "components/shared/icn_form/field_wrap/FieldWrap",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "size": "sm",
-          "classNames": "(ObjectExpression)"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/lclemente/proj/icn/icn_react/src/containers/registration/complete_profile/sections/AddressStandard.jsx",
-          "start": {
-            "line": 191,
+            "line": 211,
             "column": 13
           }
         }
@@ -3715,7 +3666,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/registration/complete_profile/sections/FirmInformation.jsx",
           "start": {
-            "line": 255,
+            "line": 259,
             "column": 7
           }
         }
@@ -3733,43 +3684,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/registration/complete_profile/sections/FirmInformation.jsx",
           "start": {
-            "line": 291,
-            "column": 19
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "FieldWrap",
-          "moduleName": "components/shared/icn_form/field_wrap/FieldWrap",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "size": "full_fluid"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/lclemente/proj/icn/icn_react/src/containers/registration/complete_profile/sections/FirmInformation.jsx",
-          "start": {
-            "line": 324,
-            "column": 13
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "FieldWrap",
-          "moduleName": "components/shared/icn_form/field_wrap/FieldWrap",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "size": "full_fluid"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/lclemente/proj/icn/icn_react/src/containers/registration/complete_profile/sections/FirmInformation.jsx",
-          "start": {
-            "line": 347,
+            "line": 293,
             "column": 17
           }
         }
@@ -3787,79 +3702,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/registration/complete_profile/sections/FirmInformation.jsx",
           "start": {
-            "line": 361,
-            "column": 17
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "FieldWrap",
-          "moduleName": "components/shared/icn_form/field_wrap/FieldWrap",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "size": "full_fluid"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/lclemente/proj/icn/icn_react/src/containers/registration/complete_profile/sections/FirmInformation.jsx",
-          "start": {
-            "line": 367,
-            "column": 15
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "FieldWrap",
-          "moduleName": "components/shared/icn_form/field_wrap/FieldWrap",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "size": "full_fluid"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/lclemente/proj/icn/icn_react/src/containers/registration/complete_profile/sections/FirmInformation.jsx",
-          "start": {
-            "line": 431,
-            "column": 15
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "FieldWrap",
-          "moduleName": "components/shared/icn_form/field_wrap/FieldWrap",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "size": "full_fluid"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/lclemente/proj/icn/icn_react/src/containers/registration/complete_profile/sections/FirmInformation.jsx",
-          "start": {
-            "line": 462,
-            "column": 15
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "FieldWrap",
-          "moduleName": "components/shared/icn_form/field_wrap/FieldWrap",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "size": "full_fluid"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/lclemente/proj/icn/icn_react/src/containers/registration/complete_profile/sections/FirmInformation.jsx",
-          "start": {
-            "line": 485,
+            "line": 326,
             "column": 13
           }
         }
@@ -3877,7 +3720,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/registration/complete_profile/sections/FirmInformation.jsx",
           "start": {
-            "line": 517,
+            "line": 350,
             "column": 15
           }
         }
@@ -3895,8 +3738,116 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/registration/complete_profile/sections/FirmInformation.jsx",
           "start": {
-            "line": 538,
+            "line": 364,
+            "column": 15
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "local": "FieldWrap",
+          "moduleName": "components/shared/icn_form/field_wrap/FieldWrap",
+          "importType": "ImportDefaultSpecifier"
+        },
+        "props": {
+          "size": "full_fluid"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/lclemente/proj/icn/icn_react/src/containers/registration/complete_profile/sections/FirmInformation.jsx",
+          "start": {
+            "line": 370,
             "column": 13
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "local": "FieldWrap",
+          "moduleName": "components/shared/icn_form/field_wrap/FieldWrap",
+          "importType": "ImportDefaultSpecifier"
+        },
+        "props": {
+          "size": "full_fluid"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/lclemente/proj/icn/icn_react/src/containers/registration/complete_profile/sections/FirmInformation.jsx",
+          "start": {
+            "line": 434,
+            "column": 11
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "local": "FieldWrap",
+          "moduleName": "components/shared/icn_form/field_wrap/FieldWrap",
+          "importType": "ImportDefaultSpecifier"
+        },
+        "props": {
+          "size": "full_fluid"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/lclemente/proj/icn/icn_react/src/containers/registration/complete_profile/sections/FirmInformation.jsx",
+          "start": {
+            "line": 467,
+            "column": 13
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "local": "FieldWrap",
+          "moduleName": "components/shared/icn_form/field_wrap/FieldWrap",
+          "importType": "ImportDefaultSpecifier"
+        },
+        "props": {
+          "size": "full_fluid"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/lclemente/proj/icn/icn_react/src/containers/registration/complete_profile/sections/FirmInformation.jsx",
+          "start": {
+            "line": 489,
+            "column": 11
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "local": "FieldWrap",
+          "moduleName": "components/shared/icn_form/field_wrap/FieldWrap",
+          "importType": "ImportDefaultSpecifier"
+        },
+        "props": {
+          "size": "full_fluid"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/lclemente/proj/icn/icn_react/src/containers/registration/complete_profile/sections/FirmInformation.jsx",
+          "start": {
+            "line": 519,
+            "column": 13
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "local": "FieldWrap",
+          "moduleName": "components/shared/icn_form/field_wrap/FieldWrap",
+          "importType": "ImportDefaultSpecifier"
+        },
+        "props": {
+          "size": "full_fluid"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/lclemente/proj/icn/icn_react/src/containers/registration/complete_profile/sections/FirmInformation.jsx",
+          "start": {
+            "line": 535,
+            "column": 11
           }
         }
       },
@@ -3911,7 +3862,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/registration/complete_profile/sections/FirmInformation.jsx",
           "start": {
-            "line": 559,
+            "line": 556,
             "column": 11
           }
         }
@@ -3965,8 +3916,8 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/registration/complete_profile/sections/Investor.jsx",
           "start": {
-            "line": 105,
-            "column": 11
+            "line": 122,
+            "column": 9
           }
         }
       },
@@ -3984,7 +3935,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/registration/complete_profile/sections/OrganizationInformation.jsx",
           "start": {
-            "line": 57,
+            "line": 45,
             "column": 7
           }
         }
@@ -4002,7 +3953,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/registration/complete_profile/sections/OrganizationInformation.jsx",
           "start": {
-            "line": 78,
+            "line": 67,
             "column": 7
           }
         }
@@ -4020,7 +3971,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/registration/complete_profile/sections/OrganizationInformation.jsx",
           "start": {
-            "line": 132,
+            "line": 134,
             "column": 7
           }
         }
@@ -4038,7 +3989,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/registration/complete_profile/sections/OrganizationInformation.jsx",
           "start": {
-            "line": 157,
+            "line": 162,
             "column": 7
           }
         }
@@ -4110,7 +4061,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/registration/complete_profile/sections/PersonalInformation.jsx",
           "start": {
-            "line": 95,
+            "line": 99,
             "column": 7
           }
         }
@@ -4128,7 +4079,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/registration/complete_profile/sections/PersonalInformation.jsx",
           "start": {
-            "line": 116,
+            "line": 120,
             "column": 9
           }
         }
@@ -4146,8 +4097,8 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/registration/complete_profile/sections/PersonalInformation.jsx",
           "start": {
-            "line": 136,
-            "column": 9
+            "line": 142,
+            "column": 13
           }
         }
       },
@@ -4164,8 +4115,26 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/registration/complete_profile/sections/PersonalInformation.jsx",
           "start": {
-            "line": 160,
-            "column": 9
+            "line": 166,
+            "column": 13
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "local": "FieldWrap",
+          "moduleName": "components/shared/icn_form/field_wrap/FieldWrap",
+          "importType": "ImportDefaultSpecifier"
+        },
+        "props": {
+          "size": "sm"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/lclemente/proj/icn/icn_react/src/containers/registration/complete_profile/sections/PersonalInformation.jsx",
+          "start": {
+            "line": 190,
+            "column": 11
           }
         }
       },
@@ -4182,7 +4151,61 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/registration/complete_profile/sections/PersonalInformation.jsx",
           "start": {
-            "line": 197,
+            "line": 221,
+            "column": 11
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "local": "FieldWrap",
+          "moduleName": "components/shared/icn_form/field_wrap/FieldWrap",
+          "importType": "ImportDefaultSpecifier"
+        },
+        "props": {
+          "size": "full_fluid"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/lclemente/proj/icn/icn_react/src/containers/registration/complete_profile/sections/PersonalInformation.jsx",
+          "start": {
+            "line": 259,
+            "column": 13
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "local": "FieldWrap",
+          "moduleName": "components/shared/icn_form/field_wrap/FieldWrap",
+          "importType": "ImportDefaultSpecifier"
+        },
+        "props": {
+          "size": "full"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/lclemente/proj/icn/icn_react/src/containers/registration/complete_profile/sections/ProfessionalDesignation.jsx",
+          "start": {
+            "line": 93,
+            "column": 9
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "local": "FieldWrap",
+          "moduleName": "components/shared/icn_form/field_wrap/FieldWrap",
+          "importType": "ImportDefaultSpecifier"
+        },
+        "props": {
+          "size": "full_fluid"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/lclemente/proj/icn/icn_react/src/containers/registration/complete_profile/sections/ProfessionalDesignation.jsx",
+          "start": {
+            "line": 150,
             "column": 13
           }
         }
@@ -4260,8 +4283,8 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/client_management/cell_renderers/actions/ActionsCell.jsx",
           "start": {
-            "line": 65,
-            "column": 5
+            "line": 84,
+            "column": 9
           }
         }
       },
@@ -4561,7 +4584,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/client_management/modals/external_api_refresh_data/RefreshDataModalEntry.jsx",
           "start": {
-            "line": 68,
+            "line": 69,
             "column": 5
           }
         }
@@ -4609,7 +4632,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/client_management/modals/redemption_request/RedemptionRequest.jsx",
           "start": {
-            "line": 100,
+            "line": 84,
             "column": 5
           }
         }
@@ -4701,7 +4724,7 @@
         },
         "propsSpread": false,
         "location": {
-          "file": "/Users/lclemente/proj/icn/icn_react/src/components/client_management/modals/send_documents_to_fidelity/LoginToFidelityModal.jsx",
+          "file": "/Users/lclemente/proj/icn/icn_react/src/components/client_management/modals/send_documents_to_custodian/modals/custodians/fidelity/LoginToFidelityModal.jsx",
           "start": {
             "line": 15,
             "column": 5
@@ -4727,10 +4750,10 @@
         },
         "propsSpread": false,
         "location": {
-          "file": "/Users/lclemente/proj/icn/icn_react/src/components/client_management/modals/send_documents_to_fidelity/SendDocumentsToFidelityModal.jsx",
+          "file": "/Users/lclemente/proj/icn/icn_react/src/components/client_management/modals/send_documents_to_custodian/modals/custodians/fidelity/index.jsx",
           "start": {
-            "line": 91,
-            "column": 7
+            "line": 114,
+            "column": 9
           }
         }
       },
@@ -4752,10 +4775,36 @@
         },
         "propsSpread": false,
         "location": {
-          "file": "/Users/lclemente/proj/icn/icn_react/src/components/client_management/modals/send_documents_to_goldman_sachs/SendDocumentsToGoldmanSachsModal.jsx",
+          "file": "/Users/lclemente/proj/icn/icn_react/src/components/client_management/modals/send_documents_to_custodian/modals/custodians/goldman_sachs/index.jsx",
           "start": {
-            "line": 34,
-            "column": 7
+            "line": 33,
+            "column": 5
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "local": "SupernovaBaseModal",
+          "moduleName": "components/shared/modals/SupernovaBaseModal/SupernovaBaseModal",
+          "importType": "ImportDefaultSpecifier"
+        },
+        "props": {
+          "isOpen": null,
+          "onRequestClose": "(Identifier)",
+          "title": "(Identifier)",
+          "primaryButtonText": "(CallExpression)",
+          "primaryButtonCallback": "(Identifier)",
+          "disablePrimary": "(LogicalExpression)",
+          "tertiaryButtonText": "(CallExpression)",
+          "tertiaryButtonCallback": "(Identifier)",
+          "size": "sm"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/lclemente/proj/icn/icn_react/src/components/client_management/modals/send_documents_to_custodian/modals/custodians/pershing/index.jsx",
+          "start": {
+            "line": 59,
+            "column": 5
           }
         }
       },
@@ -4885,7 +4934,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/client_management/modals/sequence_signers/SequenceSignersModal.jsx",
           "start": {
-            "line": 116,
+            "line": 100,
             "column": 5
           }
         }
@@ -4913,7 +4962,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/client_management/modals/sequence_signers/SequenceSignersModal.jsx",
           "start": {
-            "line": 128,
+            "line": 112,
             "column": 5
           }
         }
@@ -5051,7 +5100,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/subscription_review/modals/ApprovalHistoryModal/ApprovalHistoryModal.jsx",
           "start": {
-            "line": 100,
+            "line": 103,
             "column": 5
           }
         }
@@ -5081,6 +5130,32 @@
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/subscription_review/modals/BatchRedemptionModal/components/BatchUpdateContainer.jsx",
           "start": {
             "line": 51,
+            "column": 5
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "local": "SupernovaBaseModal",
+          "moduleName": "components/shared/modals/SupernovaBaseModal/SupernovaBaseModal",
+          "importType": "ImportDefaultSpecifier"
+        },
+        "props": {
+          "isOpen": "(Identifier)",
+          "size": "xs",
+          "title": "(CallExpression)",
+          "primaryButtonText": "(CallExpression)",
+          "primaryButtonColor": "error",
+          "primaryButtonCallback": "(Identifier)",
+          "tertiaryButtonText": "(CallExpression)",
+          "tertiaryButtonCallback": "(Identifier)",
+          "onRequestClose": "(Identifier)"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/lclemente/proj/icn/icn_react/src/components/subscription_review/modals/CancelInvestmentModal/CancelInvestmentModal.jsx",
+          "start": {
+            "line": 31,
             "column": 5
           }
         }
@@ -5292,7 +5367,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/subscription_review/modals/RecallInvestmentModal/RecallInvestmentModal.jsx",
           "start": {
-            "line": 70,
+            "line": 71,
             "column": 5
           }
         }
@@ -5430,32 +5505,6 @@
           "importType": "ImportDefaultSpecifier"
         },
         "props": {
-          "isOpen": "(Identifier)",
-          "size": "xs",
-          "title": "(CallExpression)",
-          "primaryButtonText": "(CallExpression)",
-          "primaryButtonColor": "error",
-          "primaryButtonCallback": "(Identifier)",
-          "tertiaryButtonText": "(CallExpression)",
-          "tertiaryButtonCallback": "(Identifier)",
-          "onRequestClose": "(Identifier)"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/lclemente/proj/icn/icn_react/src/components/subscription_review/modals/cancel_investment_modal/CancelInvestmentModal.jsx",
-          "start": {
-            "line": 24,
-            "column": 5
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "SupernovaBaseModal",
-          "moduleName": "components/shared/modals/SupernovaBaseModal/SupernovaBaseModal",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
           "title": "(CallExpression)",
           "primaryButtonText": "(CallExpression)",
           "primaryButtonCallback": "(Identifier)",
@@ -5470,7 +5519,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/subscription_review/modals/customize_view_modal/CustomizeViewModal.jsx",
           "start": {
-            "line": 55,
+            "line": 67,
             "column": 5
           }
         }
@@ -5676,7 +5725,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/subscription_review/modals/export_documents_modals/CreateExportModal.jsx",
           "start": {
-            "line": 72,
+            "line": 75,
             "column": 5
           }
         }
@@ -5764,6 +5813,51 @@
         },
         "props": {
           "title": "(CallExpression)",
+          "onRequestClose": "(Identifier)",
+          "isOpen": "(Identifier)",
+          "tertiaryButtonText": "(CallExpression)",
+          "tertiaryButtonCallback": "(Identifier)"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/lclemente/proj/icn/icn_react/src/components/subscription_review/modals/invalid_account_modal/InvalidAccountModal.jsx",
+          "start": {
+            "line": 33,
+            "column": 5
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "local": "SupernovaBaseModal",
+          "moduleName": "components/shared/modals/SupernovaBaseModal/SupernovaBaseModal",
+          "importType": "ImportDefaultSpecifier"
+        },
+        "props": {
+          "title": "(TemplateLiteral)",
+          "isOpen": null,
+          "onRequestClose": "(Identifier)",
+          "tertiaryButtonText": "(CallExpression)",
+          "tertiaryButtonCallback": "(Identifier)",
+          "size": "sm"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/lclemente/proj/icn/icn_react/src/components/subscription_review/modals/note_modal/NoteModal.jsx",
+          "start": {
+            "line": 14,
+            "column": 5
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "local": "SupernovaBaseModal",
+          "moduleName": "components/shared/modals/SupernovaBaseModal/SupernovaBaseModal",
+          "importType": "ImportDefaultSpecifier"
+        },
+        "props": {
+          "title": "(CallExpression)",
           "isOpen": "(Identifier)",
           "size": "sm",
           "onRequestClose": "(Identifier)",
@@ -5777,8 +5871,8 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/subscription_review/modals/override_approval_status_modal/OverrideApprovalStatusModal.jsx",
           "start": {
-            "line": 92,
-            "column": 7
+            "line": 77,
+            "column": 5
           }
         }
       },
@@ -5962,6 +6056,57 @@
           "importType": "ImportDefaultSpecifier"
         },
         "props": {
+          "isOpen": null,
+          "onRequestClose": "(Identifier)",
+          "title": "(CallExpression)",
+          "tertiaryButtonText": "(CallExpression)",
+          "tertiaryButtonCallback": "(Identifier)",
+          "isLoading": "(LogicalExpression)",
+          "paperSx": "(ObjectExpression)"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/lclemente/proj/icn/icn_react/src/components/super_nova/userSavedViews/modals/ListViewModal.tsx",
+          "start": {
+            "line": 104,
+            "column": 7
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "local": "SupernovaBaseModal",
+          "moduleName": "components/shared/modals/SupernovaBaseModal/SupernovaBaseModal",
+          "importType": "ImportDefaultSpecifier"
+        },
+        "props": {
+          "isOpen": null,
+          "onRequestClose": "(Identifier)",
+          "title": "(ConditionalExpression)",
+          "primaryButtonText": "(CallExpression)",
+          "primaryButtonCallback": "(Identifier)",
+          "tertiaryButtonText": "(CallExpression)",
+          "tertiaryButtonCallback": "(Identifier)",
+          "size": "xs",
+          "disablePrimary": "(Identifier)",
+          "isLoading": "(LogicalExpression)"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/lclemente/proj/icn/icn_react/src/components/super_nova/userSavedViews/modals/SaveViewModal.tsx",
+          "start": {
+            "line": 97,
+            "column": 5
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "local": "SupernovaBaseModal",
+          "moduleName": "components/shared/modals/SupernovaBaseModal/SupernovaBaseModal",
+          "importType": "ImportDefaultSpecifier"
+        },
+        "props": {
           "isOpen": "(Identifier)",
           "title": "Generate Agreement Preview",
           "onRequestClose": "(Identifier)",
@@ -5975,7 +6120,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/components/GeneratePreviewModal.jsx",
           "start": {
-            "line": 119,
+            "line": 116,
             "column": 5
           }
         }
@@ -6001,8 +6146,8 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/components/PublishVersion.jsx",
           "start": {
-            "line": 69,
-            "column": 7
+            "line": 64,
+            "column": 9
           }
         }
       },
@@ -6027,7 +6172,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/list/components/cell_renderers/DeleteTemplateModal.jsx",
           "start": {
-            "line": 18,
+            "line": 12,
             "column": 5
           }
         }
@@ -6054,7 +6199,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/list/components/create_form_template_modal/CreateFormTemplateModal.jsx",
           "start": {
-            "line": 59,
+            "line": 62,
             "column": 5
           }
         }
@@ -6080,8 +6225,59 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/show/versions_list/components/cell_renderers/DeleteVersionModal.jsx",
           "start": {
-            "line": 16,
+            "line": 11,
             "column": 5
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "local": "SupernovaBaseModal",
+          "moduleName": "components/shared/modals/SupernovaBaseModal/SupernovaBaseModal",
+          "importType": "ImportDefaultSpecifier"
+        },
+        "props": {
+          "isOpen": null,
+          "onRequestClose": "(Identifier)",
+          "title": "(Identifier)",
+          "primaryButtonText": "(CallExpression)",
+          "primaryButtonCallback": "(Identifier)",
+          "disablePrimary": "(CallExpression)",
+          "tertiaryButtonText": "(CallExpression)",
+          "tertiaryButtonCallback": "(Identifier)",
+          "size": "sm"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/lclemente/proj/icn/icn_react/src/containers/integration_partners_dashboard/modal/IPRuleModal.jsx",
+          "start": {
+            "line": 96,
+            "column": 7
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "local": "SupernovaBaseModal",
+          "moduleName": "components/shared/modals/SupernovaBaseModal/SupernovaBaseModal",
+          "importType": "ImportDefaultSpecifier"
+        },
+        "props": {
+          "isOpen": "(Identifier)",
+          "title": "(CallExpression)",
+          "onRequestClose": "(ArrowFunctionExpression)",
+          "primaryButtonText": "(CallExpression)",
+          "primaryButtonCallback": "(ArrowFunctionExpression)",
+          "tertiaryButtonText": "(CallExpression)",
+          "tertiaryButtonCallback": "(ArrowFunctionExpression)",
+          "size": "xs"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/lclemente/proj/icn/icn_react/src/containers/integration_partners_dashboard/modal/IPRuleModal.jsx",
+          "start": {
+            "line": 265,
+            "column": 7
           }
         }
       },
@@ -6187,58 +6383,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/send_gp_certificate/lists/InvestmentsToSend/modal/SendGPCertificateModal.jsx",
           "start": {
-            "line": 35,
-            "column": 5
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "SupernovaBaseModal",
-          "moduleName": "components/shared/modals/SupernovaBaseModal/SupernovaBaseModal",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "isOpen": null,
-          "onRequestClose": "(Identifier)",
-          "title": "(CallExpression)",
-          "tertiaryButtonText": "(CallExpression)",
-          "tertiaryButtonCallback": "(Identifier)",
-          "isLoading": "(LogicalExpression)",
-          "paperSx": "(ObjectExpression)"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/lclemente/proj/icn/icn_react/src/containers/subscription_review/tables/actions/userSavedViews/modals/ListViewModal.tsx",
-          "start": {
-            "line": 92,
-            "column": 7
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "SupernovaBaseModal",
-          "moduleName": "components/shared/modals/SupernovaBaseModal/SupernovaBaseModal",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "isOpen": null,
-          "onRequestClose": "(Identifier)",
-          "title": "(ConditionalExpression)",
-          "primaryButtonText": "(CallExpression)",
-          "primaryButtonCallback": "(Identifier)",
-          "tertiaryButtonText": "(CallExpression)",
-          "tertiaryButtonCallback": "(Identifier)",
-          "size": "xs",
-          "disablePrimary": "(Identifier)",
-          "isLoading": "(LogicalExpression)"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/lclemente/proj/icn/icn_react/src/containers/subscription_review/tables/actions/userSavedViews/modals/SaveViewModal.tsx",
-          "start": {
-            "line": 75,
+            "line": 33,
             "column": 5
           }
         }
@@ -6290,7 +6435,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/bulk_investment/pages/documents/modals/SendReminderDialog.jsx",
           "start": {
-            "line": 39,
+            "line": 37,
             "column": 5
           }
         }
@@ -6601,7 +6746,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/manage_close/pages/manageClose/components/GpCountersignature/ConfirmModal.jsx",
           "start": {
-            "line": 11,
+            "line": 9,
             "column": 5
           }
         }
@@ -6627,7 +6772,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/manage_close/pages/manageClose/components/GpCountersignature/SendForEsignModal.jsx",
           "start": {
-            "line": 28,
+            "line": 26,
             "column": 5
           }
         }
@@ -6655,7 +6800,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/manage_close/pages/scheduleClose/components/modals/ExecuteFinalCloseModal.jsx",
           "start": {
-            "line": 24,
+            "line": 22,
             "column": 5
           }
         }
@@ -6681,7 +6826,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/manage_close/pages/scheduleClose/components/modals/ExportInvestmentsModal/ExportInvestmentsModal.jsx",
           "start": {
-            "line": 32,
+            "line": 30,
             "column": 5
           }
         }
@@ -6752,7 +6897,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/manage_close/pages/scheduleClose/components/modals/WelcomeEmailsModal.jsx",
           "start": {
-            "line": 25,
+            "line": 17,
             "column": 5
           }
         }
@@ -7432,7 +7577,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/subscription_review/modals/export_documents_modals/ExportDocumentsModal.jsx",
           "start": {
-            "line": 29,
+            "line": 28,
             "column": 34
           }
         }
@@ -7450,7 +7595,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/subscription_review/modals/export_documents_modals/ExportDocumentsModal.jsx",
           "start": {
-            "line": 47,
+            "line": 45,
             "column": 7
           }
         }
@@ -7523,8 +7668,8 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/bulk_investment/BulkInvestment.jsx",
           "start": {
-            "line": 42,
-            "column": 7
+            "line": 28,
+            "column": 12
           }
         }
       },
@@ -7541,7 +7686,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/bulk_investment/pages/documents/drawers/UploadFileDrawer.jsx",
           "start": {
-            "line": 72,
+            "line": 74,
             "column": 7
           }
         }
@@ -7559,7 +7704,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/bulk_investment/pages/documents/drawers/prepare_documents/DocumentSigners.jsx",
           "start": {
-            "line": 106,
+            "line": 115,
             "column": 7
           }
         }
@@ -7577,7 +7722,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/bulk_investment/pages/documents/drawers/prepare_documents/SignerSelector.jsx",
           "start": {
-            "line": 113,
+            "line": 116,
             "column": 7
           }
         }
@@ -7595,8 +7740,8 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/bulk_investment/summary/funds_list/edit_commitment_modal/EditCommitmentModal.jsx",
           "start": {
-            "line": 69,
-            "column": 9
+            "line": 58,
+            "column": 21
           }
         }
       },
@@ -7613,7 +7758,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/initiate_transfer/InitiateTransfer.jsx",
           "start": {
-            "line": 14,
+            "line": 16,
             "column": 5
           }
         }
@@ -7631,8 +7776,8 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/initiate_transfer/modal/index.jsx",
           "start": {
-            "line": 28,
-            "column": 7
+            "line": 23,
+            "column": 12
           }
         }
       },
@@ -7649,7 +7794,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/initiate_transfer/pages/transfer_details/index.jsx",
           "start": {
-            "line": 39,
+            "line": 41,
             "column": 5
           }
         }
@@ -7721,7 +7866,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/letter_of_authorization/LetterOfAuthorization.jsx",
           "start": {
-            "line": 13,
+            "line": 17,
             "column": 5
           }
         }
@@ -7757,7 +7902,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/manage_close/ManageClosePage.jsx",
           "start": {
-            "line": 75,
+            "line": 71,
             "column": 37
           }
         }
@@ -7775,7 +7920,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/manage_close/ManageClosePage.jsx",
           "start": {
-            "line": 101,
+            "line": 97,
             "column": 13
           }
         }
@@ -7793,7 +7938,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/manage_close/pages/manageClose/components/GpCountersignature/GpCountersignatureSection.jsx",
           "start": {
-            "line": 181,
+            "line": 161,
             "column": 7
           }
         }
@@ -8147,8 +8292,8 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/subscription_workflow_status/sws_add_new_combination_modal/SWSAddNewCombinationModal.jsx",
           "start": {
-            "line": 99,
-            "column": 9
+            "line": 97,
+            "column": 11
           }
         }
       },
@@ -8171,7 +8316,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/subscription_workflow_status/sws_add_new_combination_modal/SWSAddNewCombinationModal.jsx",
           "start": {
-            "line": 131,
+            "line": 132,
             "column": 9
           }
         }
@@ -8195,8 +8340,8 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/subscription_workflow_status/sws_edit_combination_modal/SWSEditCombinationModal.jsx",
           "start": {
-            "line": 119,
-            "column": 9
+            "line": 113,
+            "column": 11
           }
         }
       },
@@ -8218,7 +8363,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/subscription_workflow_status/sws_edit_combination_modal/SWSEditCombinationModal.jsx",
           "start": {
-            "line": 150,
+            "line": 147,
             "column": 7
           }
         }
@@ -8350,28 +8495,6 @@
           "importType": "ImportDefaultSpecifier"
         },
         "props": {
-          "className": "(MemberExpression)",
-          "checked": "(MemberExpression)",
-          "tieToId": "ip-modal-combine-documents",
-          "callback": "(ArrowFunctionExpression)",
-          "label": "Combine Documents"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/lclemente/proj/icn/icn_react/src/containers/integration_partners_dashboard/modal/IPRuleModal.jsx",
-          "start": {
-            "line": 117,
-            "column": 9
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "IcnCheckBox",
-          "moduleName": "components/shared/icn_check_box/IcnCheckBox",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
           "value": "(MemberExpression)",
           "label": "(MemberExpression)",
           "checked": "(CallExpression)",
@@ -8381,7 +8504,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/mass_mailer/form/recipients/MassMailerRecipients.jsx",
           "start": {
-            "line": 175,
+            "line": 172,
             "column": 15
           }
         }
@@ -8853,7 +8976,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/shared/user_saved_views/list/SavedViewsListItem.jsx",
           "start": {
-            "line": 199,
+            "line": 195,
             "column": 19
           }
         }
@@ -8916,7 +9039,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/data_reconciliation/DataReconciliationIndex.jsx",
           "start": {
-            "line": 76,
+            "line": 75,
             "column": 15
           }
         }
@@ -8990,7 +9113,7 @@
         },
         "props": {
           "placement": "bottom",
-          "tooltipText": "Delete Document",
+          "tooltipText": "(CallExpression)",
           "iconSvg": "(Identifier)",
           "classes": "(ArrayExpression)"
         },
@@ -8998,7 +9121,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/investments/shared/document_box/components/SectionDocumentSigned.jsx",
           "start": {
-            "line": 82,
+            "line": 84,
             "column": 17
           }
         }
@@ -9011,7 +9134,7 @@
         },
         "props": {
           "placement": "bottom",
-          "tooltipText": "Delete Document",
+          "tooltipText": "(CallExpression)",
           "iconSvg": "(Identifier)",
           "classes": "(ArrayExpression)"
         },
@@ -9019,7 +9142,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/investments/shared/document_box/components/SectionUploaded.jsx",
           "start": {
-            "line": 67,
+            "line": 69,
             "column": 15
           }
         }
@@ -9471,7 +9594,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/data_reconciliation/structure/DRModal.jsx",
           "start": {
-            "line": 208,
+            "line": 209,
             "column": 15
           }
         }
@@ -9483,13 +9606,14 @@
           "importType": "ImportDefaultSpecifier"
         },
         "props": {
+          "placeholder": null,
           "selectPeriod": "(Identifier)",
           "yearsPeriod": "(CallExpression)",
           "buttonsTab": false,
           "period": "(Identifier)",
           "tabsList": "(ArrayExpression)",
           "enablePickFutureDates": null,
-          "optionLabel": "(MemberExpression)",
+          "optionLabel": "(ConditionalExpression)",
           "toggleButton": null,
           "leftAlign": null,
           "toggleValue": "(Identifier)",
@@ -9498,9 +9622,9 @@
         },
         "propsSpread": false,
         "location": {
-          "file": "/Users/lclemente/proj/icn/icn_react/src/components/fund_fees/fund_fees_views/FundFeesDashboard.jsx",
+          "file": "/Users/lclemente/proj/icn/icn_react/src/components/fund_fees/fund_fees_filters/FundFeesPeriodPicker.jsx",
           "start": {
-            "line": 174,
+            "line": 60,
             "column": 7
           }
         }
@@ -9730,7 +9854,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/doc_center/dc_saved_views/dc_saved_views_create/DCSavedViewsCreate.jsx",
           "start": {
-            "line": 81,
+            "line": 118,
             "column": 13
           }
         }
@@ -9753,7 +9877,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/shared/user_saved_views/footer/SavedViewsFooter.jsx",
           "start": {
-            "line": 53,
+            "line": 51,
             "column": 9
           }
         }
@@ -9843,7 +9967,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/login/multifactor_authentication/MfaVerification.jsx",
           "start": {
-            "line": 194,
+            "line": 198,
             "column": 11
           }
         }
@@ -10493,7 +10617,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/investor_profile_versions/components/page_list/InvestorProfilePageList.jsx",
           "start": {
-            "line": 120,
+            "line": 116,
             "column": 7
           }
         }
@@ -10510,7 +10634,7 @@
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/bulk_investment/pages/documents/drawers/prepare_documents/DraggableDocumentSigners.jsx",
           "start": {
             "line": 98,
-            "column": 11
+            "column": 10
           }
         }
       }
@@ -10535,26 +10659,6 @@
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/document_definitions/remove_document_modal/ConfirmDocumentRemovalModal.jsx",
           "start": {
             "line": 6,
-            "column": 3
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "IcnSimpleModal",
-          "moduleName": "components/shared/modals/IcnSimpleModal/IcnSimpleModal",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "title": "(TemplateLiteral)",
-          "onRequestClose": "(Identifier)",
-          "isOpen": "(Identifier)"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/lclemente/proj/icn/icn_react/src/components/subscription_review/modals/invalid_ubs_modal/InvalidUbsModal.jsx",
-          "start": {
-            "line": 46,
             "column": 3
           }
         }
@@ -10886,7 +10990,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/subscription_reviewer/entry/subscriptionReviewerEntry.jsx",
           "start": {
-            "line": 197,
+            "line": 183,
             "column": 7
           }
         }
@@ -11427,30 +11531,6 @@
           "importType": "ImportDefaultSpecifier"
         },
         "props": {
-          "icon": "(JSXElement)",
-          "pageSlug": "subscriptions_dashboard",
-          "filters": "(Identifier)",
-          "hasFiltersApplied": "(Identifier)",
-          "onViewSelected": "(ArrowFunctionExpression)",
-          "onSaveView": "(ArrowFunctionExpression)",
-          "onMenuItemClick": "(ArrowFunctionExpression)"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/lclemente/proj/icn/icn_react/src/containers/subscriptions_dashboard/entry/SubscriptionsDashboardEntry.jsx",
-          "start": {
-            "line": 168,
-            "column": 17
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "UserSavedViews",
-          "moduleName": "components/shared/user_saved_views/UserSavedViews",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
           "pageSlug": "(Identifier)",
           "filters": "(CallExpression)",
           "hasFiltersApplied": "(CallExpression)",
@@ -11460,7 +11540,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/activity_log/components/ActivityLogFilters.jsx",
           "start": {
-            "line": 261,
+            "line": 274,
             "column": 13
           }
         }
@@ -11481,7 +11561,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/activity_log/components/advisor/AdvisorActivitiesFilters.jsx",
           "start": {
-            "line": 254,
+            "line": 276,
             "column": 13
           }
         }
@@ -11625,7 +11705,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/investor_profile_versions/show/InvestorProfileVersionsShow.jsx",
           "start": {
-            "line": 69,
+            "line": 63,
             "column": 7
           }
         }
@@ -11641,7 +11721,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/investor_profile_versions/update/InvestorProfileVersionsUpdate.jsx",
           "start": {
-            "line": 135,
+            "line": 113,
             "column": 11
           }
         }
@@ -11657,7 +11737,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/show/FormTemplatesShow.jsx",
           "start": {
-            "line": 202,
+            "line": 197,
             "column": 11
           }
         }
@@ -11675,7 +11755,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/versions/edit/FormTemplateVersionsEdit.jsx",
           "start": {
-            "line": 190,
+            "line": 168,
             "column": 11
           }
         }
@@ -11691,8 +11771,8 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/versions/show/FormTemplateVersionsShow.jsx",
           "start": {
-            "line": 97,
-            "column": 9
+            "line": 90,
+            "column": 11
           }
         }
       },
@@ -11709,8 +11789,8 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/versions/show/FormTemplateVersionsShow.jsx",
           "start": {
-            "line": 128,
-            "column": 15
+            "line": 118,
+            "column": 17
           }
         }
       },
@@ -11727,7 +11807,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/new_investor_profile/NewInvestorProfile.jsx",
           "start": {
-            "line": 215,
+            "line": 219,
             "column": 9
           }
         }
@@ -11777,8 +11857,8 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/subscription_reviewer/entry/subscriptionReviewerEntry.jsx",
           "start": {
-            "line": 211,
-            "column": 9
+            "line": 198,
+            "column": 11
           }
         }
       },
@@ -11793,8 +11873,8 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/subscriptions_dashboard/entry/SubscriptionsDashboardEntry.jsx",
           "start": {
-            "line": 155,
-            "column": 11
+            "line": 173,
+            "column": 13
           }
         }
       },
@@ -12113,7 +12193,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/investment_dashboard/id_cash_analysis/IDCashAnalysis.jsx",
           "start": {
-            "line": 76,
+            "line": 85,
             "column": 5
           }
         }
@@ -12155,7 +12235,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/shared/document_center_widget/document_center_widget_header/DocumentCenterWidgetHeader.jsx",
           "start": {
-            "line": 179,
+            "line": 198,
             "column": 11
           }
         }
@@ -12222,8 +12302,8 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/investor_relations/subscription_reviewer/sr_create_responsibility/SRCreateResponsibilityModal.jsx",
           "start": {
-            "line": 64,
-            "column": 33
+            "line": 58,
+            "column": 32
           }
         }
       },
@@ -13148,29 +13228,6 @@
           "importType": "ImportDefaultSpecifier"
         },
         "props": {
-          "title": "(Identifier)",
-          "onConfirm": "(Identifier)",
-          "onCancel": "(Identifier)",
-          "confirmButtonText": "Save",
-          "isOpen": "(Identifier)",
-          "disableConfirm": "(CallExpression)"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/lclemente/proj/icn/icn_react/src/containers/integration_partners_dashboard/modal/IPRuleModal.jsx",
-          "start": {
-            "line": 63,
-            "column": 5
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "IcnSimpleChoiceModal",
-          "moduleName": "components/shared/modals/IcnSimpleChoiceModal/IcnSimpleChoiceModal",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
           "isOpen": "(Identifier)",
           "cancelButtonText": "Cancel",
           "confirmButtonText": "OK",
@@ -13226,7 +13283,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/subscription_workflow_status/entry/SubscriptionWorkflowEntry.jsx",
           "start": {
-            "line": 176,
+            "line": 178,
             "column": 11
           }
         }
@@ -13321,7 +13378,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/fund_admin/fund_fees/FundFees.jsx",
           "start": {
-            "line": 50,
+            "line": 43,
             "column": 9
           }
         }
@@ -13410,7 +13467,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/doc_center/entry/entry.jsx",
           "start": {
-            "line": 247,
+            "line": 265,
             "column": 7
           }
         }
@@ -13427,7 +13484,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/document_manager/entry/documentManagerEntry.jsx",
           "start": {
-            "line": 646,
+            "line": 719,
             "column": 7
           }
         }
@@ -13529,8 +13586,8 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/subscriptions_dashboard/entry/SubscriptionsDashboardEntry.jsx",
           "start": {
-            "line": 189,
-            "column": 13
+            "line": 203,
+            "column": 15
           }
         }
       },
@@ -13561,10 +13618,10 @@
         "props": {},
         "propsSpread": false,
         "location": {
-          "file": "/Users/lclemente/proj/icn/icn_react/src/modules/configuration_master/containers/change_requests/entry.jsx",
+          "file": "/Users/lclemente/proj/icn/icn_react/src/modules/configuration_master/containers/configuration/entry.jsx",
           "start": {
-            "line": 142,
-            "column": 7
+            "line": 213,
+            "column": 11
           }
         }
       },
@@ -13580,7 +13637,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/configuration_master/containers/entry.jsx",
           "start": {
-            "line": 31,
+            "line": 29,
             "column": 7
           }
         }
@@ -13614,7 +13671,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/nominees/manage_allocations/index.jsx",
           "start": {
-            "line": 39,
+            "line": 43,
             "column": 7
           }
         }
@@ -13631,7 +13688,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/transfers/review/TransferReviewPage.jsx",
           "start": {
-            "line": 49,
+            "line": 46,
             "column": 7
           }
         }
@@ -13955,7 +14012,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/subscription_reviewer/entry/subscriptionReviewerEntry.jsx",
           "start": {
-            "line": 164,
+            "line": 154,
             "column": 5
           }
         }
@@ -14024,7 +14081,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/subscription_review/tables/actions/SRTablesActions.jsx",
           "start": {
-            "line": 86,
+            "line": 71,
             "column": 13
           }
         }
@@ -14450,8 +14507,8 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/subscription_review/tables/actions/SRTablesActions.jsx",
           "start": {
-            "line": 23,
-            "column": 5
+            "line": 16,
+            "column": 10
           }
         }
       }
@@ -14630,7 +14687,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/investments/shared/document_box/components/SectionUploaderDescription.jsx",
           "start": {
-            "line": 43,
+            "line": 45,
             "column": 7
           }
         }
@@ -14688,7 +14745,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/investor_representative/questionnaire/sections/AddressStandard.jsx",
           "start": {
-            "line": 42,
+            "line": 56,
             "column": 7
           }
         }
@@ -14706,7 +14763,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/registration/complete_profile/sections/AddressStandard.jsx",
           "start": {
-            "line": 53,
+            "line": 65,
             "column": 5
           }
         }
@@ -14722,7 +14779,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/registration/complete_profile/sections/FirmInformation.jsx",
           "start": {
-            "line": 262,
+            "line": 264,
             "column": 9
           }
         }
@@ -15146,7 +15203,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/investor_representative/modals/IRAddInvestorModal.jsx",
           "start": {
-            "line": 125,
+            "line": 109,
             "column": 11
           }
         }
@@ -15862,27 +15919,6 @@
           "start": {
             "line": 80,
             "column": 11
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "IcnTextInput",
-          "moduleName": "components/shared/icn_form/icn_text_input/IcnTextInput",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "inputId": "bridge_id",
-          "label": "API Integration ID",
-          "value": "(MemberExpression)",
-          "callback": "(ArrowFunctionExpression)"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/lclemente/proj/icn/icn_react/src/containers/integration_partners_dashboard/modal/IPRuleModal.jsx",
-          "start": {
-            "line": 140,
-            "column": 9
           }
         }
       },
@@ -16989,7 +17025,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/shared/loading/Loading.jsx",
           "start": {
-            "line": 10,
+            "line": 20,
             "column": 5
           }
         }
@@ -17087,8 +17123,8 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/data_reconciliation/DataReconciliationIndex.jsx",
           "start": {
-            "line": 67,
-            "column": 5
+            "line": 66,
+            "column": 12
           }
         }
       },
@@ -17170,7 +17206,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/show/FormTemplatesShow.jsx",
           "start": {
-            "line": 133,
+            "line": 126,
             "column": 5
           }
         }
@@ -17208,7 +17244,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/versions/show/FormTemplateVersionsShow.jsx",
           "start": {
-            "line": 68,
+            "line": 57,
             "column": 5
           }
         }
@@ -17227,8 +17263,8 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/versions/update/FormTemplateVersionsUpdate.jsx",
           "start": {
-            "line": 76,
-            "column": 5
+            "line": 70,
+            "column": 7
           }
         }
       },
@@ -17461,7 +17497,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/investor_representative/entry/InvestorRepresentativeEntry.jsx",
           "start": {
-            "line": 70,
+            "line": 64,
             "column": 5
           }
         }
@@ -17479,7 +17515,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/investor_representative/questionnaire/IRQuestionnaire.jsx",
           "start": {
-            "line": 226,
+            "line": 252,
             "column": 5
           }
         }
@@ -17515,7 +17551,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/login/multifactor_authentication/MfaVerification.jsx",
           "start": {
-            "line": 192,
+            "line": 196,
             "column": 7
           }
         }
@@ -17620,7 +17656,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/new_investor_profile/NewInvestorProfile.jsx",
           "start": {
-            "line": 202,
+            "line": 206,
             "column": 7
           }
         }
@@ -17688,7 +17724,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/pre_approval_questionnaire/entry/PreApprovalQuestionnaireEntry.jsx",
           "start": {
-            "line": 124,
+            "line": 131,
             "column": 5
           }
         }
@@ -17892,7 +17928,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/subscription_review/entry/entry.jsx",
           "start": {
-            "line": 156,
+            "line": 179,
             "column": 5
           }
         }
@@ -17908,7 +17944,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/subscription_workflow_status/entry/SubscriptionWorkflowEntry.jsx",
           "start": {
-            "line": 139,
+            "line": 141,
             "column": 7
           }
         }
@@ -17924,8 +17960,8 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/subscriptions_dashboard/entry/SubscriptionsDashboardEntry.jsx",
           "start": {
-            "line": 130,
-            "column": 5
+            "line": 146,
+            "column": 7
           }
         }
       },
@@ -17940,7 +17976,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/team_management/entry/TeamManagement.jsx",
           "start": {
-            "line": 50,
+            "line": 40,
             "column": 5
           }
         }
@@ -18034,7 +18070,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/education/containers/dashboard/entry.jsx",
           "start": {
-            "line": 116,
+            "line": 112,
             "column": 5
           }
         }
@@ -18169,6 +18205,54 @@
       }
     ]
   },
+  "DocumentUploader": {
+    "instances": [
+      {
+        "importInfo": {
+          "local": "DocumentUploader",
+          "moduleName": "components/shared/upload_document_modal/file_uploader/DocumentUploader",
+          "importType": "ImportDefaultSpecifier"
+        },
+        "props": {
+          "onFileChange": "(Identifier)",
+          "uploadedFile": "(Identifier)",
+          "ref": "(Identifier)",
+          "display": "(ConditionalExpression)",
+          "onError": "(Identifier)"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/lclemente/proj/icn/icn_react/src/components/shared/upload_completed_document_modal/index.jsx",
+          "start": {
+            "line": 106,
+            "column": 9
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "local": "DocumentUploader",
+          "moduleName": "components/shared/upload_document_modal/file_uploader/DocumentUploader",
+          "importType": "ImportDefaultSpecifier"
+        },
+        "props": {
+          "onFileChange": "(Identifier)",
+          "uploadedFile": "(Identifier)",
+          "ref": "(Identifier)",
+          "display": "(ConditionalExpression)",
+          "onError": "(Identifier)"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/lclemente/proj/icn/icn_react/src/modules/investments/view_documents/components/modals/AddDocumentModal.jsx",
+          "start": {
+            "line": 132,
+            "column": 15
+          }
+        }
+      }
+    ]
+  },
   "BookmarkSvg": {
     "instances": [
       {
@@ -18206,7 +18290,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/subscription_review/modals/ApprovalHistoryModal/ApprovalHistoryModal.jsx",
           "start": {
-            "line": 87,
+            "line": 90,
             "column": 13
           }
         }
@@ -18276,7 +18360,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/subscriptions_dashboard/SDHeader/SDPendingSubscriptionsTable.tsx",
           "start": {
-            "line": 80,
+            "line": 75,
             "column": 7
           }
         }
@@ -18328,6 +18412,25 @@
           "importType": "ImportDefaultSpecifier"
         },
         "props": {
+          "data": "(Identifier)",
+          "columns": "(Identifier)"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/lclemente/proj/icn/icn_react/src/modules/aml/tables/cell_renderers/ExternalIds.jsx",
+          "start": {
+            "line": 19,
+            "column": 10
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "local": "BasicSNTable",
+          "moduleName": "components/shared/tables/BasicSNTable/BasicSNTable",
+          "importType": "ImportDefaultSpecifier"
+        },
+        "props": {
           "withFooter": null,
           "id": "transfer_details",
           "tableProps": "(ObjectExpression)",
@@ -18340,7 +18443,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/initiate_transfer/pages/transfer_details/TransferDetailsTable/TransferDetailsTable.jsx",
           "start": {
-            "line": 32,
+            "line": 31,
             "column": 5
           }
         }
@@ -18540,7 +18643,7 @@
         },
         "props": {
           "cancel": "(Identifier)",
-          "investment": "(Identifier)",
+          "investment": "(ObjectExpression)",
           "loadHistoryEvents": "(CallExpression)",
           "data": "(ObjectExpression)"
         },
@@ -18577,7 +18680,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/subscription_review/sr_grid/SRGrid.jsx",
           "start": {
-            "line": 201,
+            "line": 211,
             "column": 7
           }
         }
@@ -18622,7 +18725,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/subscription_review/sr_grid/sr_grid_transfers/SRGridTransfers.jsx",
           "start": {
-            "line": 19,
+            "line": 32,
             "column": 7
           }
         }
@@ -18647,7 +18750,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/client_management/grid/CMGrid.jsx",
           "start": {
-            "line": 95,
+            "line": 104,
             "column": 7
           }
         }
@@ -18757,7 +18860,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/subscriptions_dashboard/SDHeader/SDInfoSummary.jsx",
           "start": {
-            "line": 159,
+            "line": 155,
             "column": 9
           }
         }
@@ -18780,7 +18883,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/subscriptions_dashboard/SDHeader/SDInfoSummary.jsx",
           "start": {
-            "line": 166,
+            "line": 164,
             "column": 9
           }
         }
@@ -18806,8 +18909,8 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/subscription_workflow_status/sws_add_new_combination_modal/SWSAddNewCombinationModal.jsx",
           "start": {
-            "line": 163,
-            "column": 7
+            "line": 165,
+            "column": 11
           }
         }
       },
@@ -18828,8 +18931,8 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/subscription_workflow_status/sws_edit_combination_modal/SWSEditCombinationModal.jsx",
           "start": {
-            "line": 180,
-            "column": 9
+            "line": 178,
+            "column": 11
           }
         }
       },
@@ -18885,7 +18988,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/subscription_workflow_status/sws_add_new_combination_modal/SWSAddNewCombinationModal.jsx",
           "start": {
-            "line": 245,
+            "line": 244,
             "column": 17
           }
         }
@@ -18909,7 +19012,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/subscription_workflow_status/sws_edit_combination_modal/SWSEditCombinationModal.jsx",
           "start": {
-            "line": 280,
+            "line": 270,
             "column": 17
           }
         }
@@ -18986,7 +19089,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/components/subscriptions_dashboard/SDHeader/SDInfoSummary.jsx",
           "start": {
-            "line": 178,
+            "line": 173,
             "column": 11
           }
         }
@@ -19131,108 +19234,6 @@
           "importType": "ImportDefaultSpecifier"
         },
         "props": {
-          "title": "Base Template",
-          "uniqueKey": "base-template",
-          "idAlias": "typed_filter_id",
-          "listType": "normal",
-          "filterList": "(Identifier)",
-          "itemsSelected": "(Identifier)",
-          "callback": "(ArrowFunctionExpression)",
-          "width": "100%"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/lclemente/proj/icn/icn_react/src/containers/integration_partners_dashboard/filters/IPTemplatesFilters.jsx",
-          "start": {
-            "line": 44,
-            "column": 5
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "DropDownFilter",
-          "moduleName": "components/shared/dropdown_filter/DropDownFilterEntry",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "title": "White Label Partner",
-          "uniqueKey": "wlp",
-          "idAlias": "typed_filter_id",
-          "listType": "normal",
-          "filterList": "(Identifier)",
-          "itemsSelected": "(Identifier)",
-          "callback": "(ArrowFunctionExpression)",
-          "width": "100%"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/lclemente/proj/icn/icn_react/src/containers/integration_partners_dashboard/filters/IPTemplatesFilters.jsx",
-          "start": {
-            "line": 64,
-            "column": 5
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "DropDownFilter",
-          "moduleName": "components/shared/dropdown_filter/DropDownFilterEntry",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "title": "Integration Partner",
-          "containerId": "ip-modal-integration-partners",
-          "uniqueKey": "integration-partners",
-          "idAlias": "typed_filter_id",
-          "listType": "normal",
-          "offset": "(Identifier)",
-          "filterList": "(Identifier)",
-          "itemsSelected": "(MemberExpression)",
-          "callback": "(ArrowFunctionExpression)"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/lclemente/proj/icn/icn_react/src/containers/integration_partners_dashboard/modal/IPRuleModal.jsx",
-          "start": {
-            "line": 78,
-            "column": 9
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "DropDownFilter",
-          "moduleName": "components/shared/dropdown_filter/DropDownFilterEntry",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "title": "White Label Partners",
-          "containerId": "ip-modal-wlps",
-          "offset": "(Identifier)",
-          "uniqueKey": "wlps",
-          "idAlias": "typed_filter_id",
-          "listType": "normal",
-          "filterList": "(Identifier)",
-          "itemsSelected": "(MemberExpression)",
-          "callback": "(ArrowFunctionExpression)"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/lclemente/proj/icn/icn_react/src/containers/integration_partners_dashboard/modal/IPRuleModal.jsx",
-          "start": {
-            "line": 95,
-            "column": 9
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "DropDownFilter",
-          "moduleName": "components/shared/dropdown_filter/DropDownFilterEntry",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
           "title": "Status",
           "listType": "normal",
           "uniqueKey": "status-filter",
@@ -19270,7 +19271,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/subscription_reviewer/entry/subscriptionReviewerEntry.jsx",
           "start": {
-            "line": 101,
+            "line": 91,
             "column": 13
           }
         }
@@ -19296,7 +19297,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/subscription_reviewer/entry/subscriptionReviewerEntry.jsx",
           "start": {
-            "line": 129,
+            "line": 119,
             "column": 13
           }
         }
@@ -19321,7 +19322,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/subscription_workflow_status/sws_filters/SWSFilters.jsx",
           "start": {
-            "line": 14,
+            "line": 11,
             "column": 5
           }
         }
@@ -19346,7 +19347,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/subscription_workflow_status/sws_filters/SWSFilters.jsx",
           "start": {
-            "line": 40,
+            "line": 33,
             "column": 5
           }
         }
@@ -19430,7 +19431,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/registration/Registration.jsx",
           "start": {
-            "line": 332,
+            "line": 326,
             "column": 7
           }
         }
@@ -19653,7 +19654,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/investment_opportunity/components/ListOpportunities/common/IOInfoMessage.jsx",
           "start": {
-            "line": 30,
+            "line": 36,
             "column": 7
           }
         }
@@ -19669,7 +19670,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/investment_opportunity/components/ListOpportunities/common/IOInfoMessage.jsx",
           "start": {
-            "line": 58,
+            "line": 66,
             "column": 7
           }
         }
@@ -19795,7 +19796,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/supplemental_form/entry/SupplementalFormEntry.jsx",
           "start": {
-            "line": 181,
+            "line": 170,
             "column": 9
           }
         }
@@ -19856,6 +19857,25 @@
             "column": 5
           }
         }
+      },
+      {
+        "importInfo": {
+          "imported": "FormBuilder",
+          "local": "FormBuilder",
+          "moduleName": "components/shared/form_builder",
+          "importType": "ImportSpecifier"
+        },
+        "props": {
+          "engine": "(Identifier)"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/versions/edit/FormTemplateVersionsEdit.jsx",
+          "start": {
+            "line": 124,
+            "column": 5
+          }
+        }
       }
     ]
   },
@@ -19890,7 +19910,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/versions/edit/FormTemplateEditor.jsx",
           "start": {
-            "line": 42,
+            "line": 38,
             "column": 5
           }
         }
@@ -19956,7 +19976,7 @@
             "location": {
               "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/versions/edit/FormTemplateEditor.jsx",
               "start": {
-                "line": 44,
+                "line": 40,
                 "column": 9
               }
             }
@@ -19976,7 +19996,7 @@
             "location": {
               "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/versions/edit/FormTemplateEditor.jsx",
               "start": {
-                "line": 47,
+                "line": 43,
                 "column": 9
               }
             }
@@ -19996,7 +20016,7 @@
             "location": {
               "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/versions/edit/FormTemplateEditor.jsx",
               "start": {
-                "line": 50,
+                "line": 46,
                 "column": 9
               }
             }
@@ -20023,6 +20043,23 @@
             "column": 5
           }
         }
+      },
+      {
+        "importInfo": {
+          "imported": "FormBuilderEditor",
+          "local": "FormBuilderEditor",
+          "moduleName": "components/shared/form_builder",
+          "importType": "ImportSpecifier"
+        },
+        "props": {},
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/versions/edit/FormTemplateEditor.jsx",
+          "start": {
+            "line": 59,
+            "column": 11
+          }
+        }
       }
     ]
   },
@@ -20039,7 +20076,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/components/GeneratePreviewModal.jsx",
           "start": {
-            "line": 190,
+            "line": 187,
             "column": 23
           }
         }
@@ -20082,7 +20119,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/components/TemplateVersionPreview.jsx",
           "start": {
-            "line": 51,
+            "line": 38,
             "column": 7
           }
         }
@@ -20105,7 +20142,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/components/investor_profile/InvestorProfilePagePreview/index.jsx",
           "start": {
-            "line": 42,
+            "line": 37,
             "column": 7
           }
         }
@@ -20127,8 +20164,8 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/form_builder/custom_components/CanadaProvinces/component/index.jsx",
           "start": {
-            "line": 13,
-            "column": 5
+            "line": 16,
+            "column": 10
           }
         }
       },
@@ -20146,7 +20183,7 @@
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/form_builder/custom_components/USAStates/component/index.jsx",
           "start": {
             "line": 17,
-            "column": 5
+            "column": 10
           }
         }
       },
@@ -20309,7 +20346,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/show/FormTemplatesShow.jsx",
           "start": {
-            "line": 213,
+            "line": 208,
             "column": 15
           }
         }
@@ -20328,8 +20365,8 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/versions/show/FormTemplateVersionsShow.jsx",
           "start": {
-            "line": 108,
-            "column": 13
+            "line": 101,
+            "column": 15
           }
         }
       }
@@ -20349,94 +20386,12 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/versions/edit/FormTemplateEditor.jsx",
           "start": {
-            "line": 54,
+            "line": 50,
             "column": 7
           }
         }
       }
-    ],
-    "components": {
-      "Panel": {
-        "instances": [
-          {
-            "importInfo": {
-              "imported": "FormBuilderContent",
-              "local": "FormBuilderContent",
-              "moduleName": "components/shared/form_builder",
-              "importType": "ImportSpecifier"
-            },
-            "props": {
-              "panel": "(MemberExpression)"
-            },
-            "propsSpread": false,
-            "location": {
-              "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/versions/edit/FormTemplateEditor.jsx",
-              "start": {
-                "line": 63,
-                "column": 9
-              }
-            }
-          },
-          {
-            "importInfo": {
-              "imported": "FormBuilderContent",
-              "local": "FormBuilderContent",
-              "moduleName": "components/shared/form_builder",
-              "importType": "ImportSpecifier"
-            },
-            "props": {
-              "panel": "(MemberExpression)"
-            },
-            "propsSpread": false,
-            "location": {
-              "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/versions/edit/FormTemplateEditor.jsx",
-              "start": {
-                "line": 66,
-                "column": 9
-              }
-            }
-          },
-          {
-            "importInfo": {
-              "imported": "FormBuilderContent",
-              "local": "FormBuilderContent",
-              "moduleName": "components/shared/form_builder",
-              "importType": "ImportSpecifier"
-            },
-            "props": {
-              "panel": "(MemberExpression)"
-            },
-            "propsSpread": false,
-            "location": {
-              "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/versions/edit/FormTemplateEditor.jsx",
-              "start": {
-                "line": 69,
-                "column": 9
-              }
-            }
-          },
-          {
-            "importInfo": {
-              "imported": "FormBuilderContent",
-              "local": "FormBuilderContent",
-              "moduleName": "components/shared/form_builder",
-              "importType": "ImportSpecifier"
-            },
-            "props": {
-              "panel": "(MemberExpression)"
-            },
-            "propsSpread": false,
-            "location": {
-              "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/versions/edit/FormTemplateEditor.jsx",
-              "start": {
-                "line": 72,
-                "column": 9
-              }
-            }
-          }
-        ]
-      }
-    }
+    ]
   },
   "FormBuilderHeader": {
     "components": {
@@ -20457,47 +20412,47 @@
             "location": {
               "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/versions/edit/FormTemplateEditor.jsx",
               "start": {
+                "line": 52,
+                "column": 11
+              }
+            }
+          },
+          {
+            "importInfo": {
+              "imported": "FormBuilderHeader",
+              "local": "FormBuilderHeader",
+              "moduleName": "components/shared/form_builder",
+              "importType": "ImportSpecifier"
+            },
+            "props": {
+              "align": "right",
+              "action": "liveEdit"
+            },
+            "propsSpread": false,
+            "location": {
+              "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/versions/edit/FormTemplateEditor.jsx",
+              "start": {
+                "line": 54,
+                "column": 11
+              }
+            }
+          },
+          {
+            "importInfo": {
+              "imported": "FormBuilderHeader",
+              "local": "FormBuilderHeader",
+              "moduleName": "components/shared/form_builder",
+              "importType": "ImportSpecifier"
+            },
+            "props": {
+              "align": "right",
+              "action": "schemas"
+            },
+            "propsSpread": false,
+            "location": {
+              "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/versions/edit/FormTemplateEditor.jsx",
+              "start": {
                 "line": 56,
-                "column": 11
-              }
-            }
-          },
-          {
-            "importInfo": {
-              "imported": "FormBuilderHeader",
-              "local": "FormBuilderHeader",
-              "moduleName": "components/shared/form_builder",
-              "importType": "ImportSpecifier"
-            },
-            "props": {
-              "align": "right",
-              "action": "edit"
-            },
-            "propsSpread": false,
-            "location": {
-              "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/versions/edit/FormTemplateEditor.jsx",
-              "start": {
-                "line": 58,
-                "column": 11
-              }
-            }
-          },
-          {
-            "importInfo": {
-              "imported": "FormBuilderHeader",
-              "local": "FormBuilderHeader",
-              "moduleName": "components/shared/form_builder",
-              "importType": "ImportSpecifier"
-            },
-            "props": {
-              "align": "right",
-              "action": "preview"
-            },
-            "propsSpread": false,
-            "location": {
-              "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/versions/edit/FormTemplateEditor.jsx",
-              "start": {
-                "line": 60,
                 "column": 11
               }
             }
@@ -20506,12 +20461,12 @@
       }
     }
   },
-  "FormNodeEditPanel": {
+  "FormBuilderLiveEditor": {
     "instances": [
       {
         "importInfo": {
-          "imported": "FormNodeEditPanel",
-          "local": "FormNodeEditPanel",
+          "imported": "FormBuilderLiveEditor",
+          "local": "FormBuilderLiveEditor",
           "moduleName": "components/shared/form_builder",
           "importType": "ImportSpecifier"
         },
@@ -20520,8 +20475,51 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/versions/edit/FormTemplateEditor.jsx",
           "start": {
-            "line": 75,
-            "column": 9
+            "line": 62,
+            "column": 11
+          }
+        }
+      }
+    ]
+  },
+  "FormBuilderPreview": {
+    "instances": [
+      {
+        "importInfo": {
+          "local": "FormBuilderPreview",
+          "moduleName": "components/shared/form_builder/components/editor/FormBuilderPreview",
+          "importType": "ImportDefaultSpecifier"
+        },
+        "props": {
+          "formTemplate": "(Identifier)",
+          "setPreviewFormData": "(Identifier)"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/versions/edit/FormTemplateEditor.jsx",
+          "start": {
+            "line": 65,
+            "column": 11
+          }
+        }
+      }
+    ]
+  },
+  "FormBuilderSchemasPreview": {
+    "instances": [
+      {
+        "importInfo": {
+          "local": "FormBuilderSchemasPreview",
+          "moduleName": "components/shared/form_builder/components/editor/FormBuilderSchemasPreview",
+          "importType": "ImportDefaultSpecifier"
+        },
+        "props": {},
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/lclemente/proj/icn/icn_react/src/containers/form_templates/versions/edit/FormTemplateEditor.jsx",
+          "start": {
+            "line": 68,
+            "column": 11
           }
         }
       }
@@ -20562,23 +20560,6 @@
             "column": 9
           }
         }
-      },
-      {
-        "importInfo": {
-          "imported": "GridItem",
-          "local": "GridItem",
-          "moduleName": "components/shared/layout_global/LayoutHelpers",
-          "importType": "ImportSpecifier"
-        },
-        "props": {},
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/lclemente/proj/icn/icn_react/src/containers/fund_admin/fund_fees/FundFees.jsx",
-          "start": {
-            "line": 41,
-            "column": 9
-          }
-        }
       }
     ]
   },
@@ -20601,7 +20582,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/icn_header/icnHeader.jsx",
           "start": {
-            "line": 306,
+            "line": 309,
             "column": 15
           }
         }
@@ -20643,7 +20624,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/product_profile_builder/components/ContactInfo/ContactInfoDialog.jsx",
           "start": {
-            "line": 228,
+            "line": 201,
             "column": 9
           }
         }
@@ -20667,27 +20648,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/integration_partners_dashboard/table/IPTable.jsx",
           "start": {
-            "line": 106,
-            "column": 9
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "IcnErrorModal",
-          "moduleName": "components/shared/modals/IcnErrorModal/IcnErrorModal",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "isOpen": "(UnaryExpression)",
-          "bodyText": "(MemberExpression)",
-          "onDismiss": "(ArrowFunctionExpression)"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/lclemente/proj/icn/icn_react/src/containers/integration_partners_dashboard/table/IPTemplatesTable.jsx",
-          "start": {
-            "line": 165,
+            "line": 105,
             "column": 9
           }
         }
@@ -21795,7 +21756,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/subscription_review/entry/entry.jsx",
           "start": {
-            "line": 182,
+            "line": 205,
             "column": 9
           }
         }
@@ -21827,7 +21788,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/investment_opportunity/containers/Entry/Entry.jsx",
           "start": {
-            "line": 179,
+            "line": 195,
             "column": 9
           }
         }
@@ -21908,7 +21869,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/containers/subscription_workflow_status/entry/SubscriptionWorkflowEntry.jsx",
           "start": {
-            "line": 142,
+            "line": 144,
             "column": 13
           }
         }
@@ -21932,7 +21893,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/activity_log/components/ActivityLogFilters.jsx",
           "start": {
-            "line": 118,
+            "line": 131,
             "column": 11
           }
         }
@@ -21972,7 +21933,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/activity_log/components/advisor/AdvisorActivitiesFilters.jsx",
           "start": {
-            "line": 133,
+            "line": 139,
             "column": 11
           }
         }
@@ -22017,7 +21978,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/activity_log/components/ActivityLogFilters.jsx",
           "start": {
-            "line": 125,
+            "line": 138,
             "column": 11
           }
         }
@@ -22045,7 +22006,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/activity_log/components/ActivityLogFilters.jsx",
           "start": {
-            "line": 133,
+            "line": 146,
             "column": 11
           }
         }
@@ -22058,30 +22019,6 @@
         },
         "props": {
           "id": "category-multiselect",
-          "label": "(CallExpression)",
-          "items": "(MemberExpression)",
-          "selectedItems": "(MemberExpression)",
-          "loading": "(MemberExpression)",
-          "onCallback": "(ArrowFunctionExpression)",
-          "onCallbackOpen": "(ArrowFunctionExpression)"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/lclemente/proj/icn/icn_react/src/modules/activity_log/components/ActivityLogFilters.jsx",
-          "start": {
-            "line": 178,
-            "column": 13
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "MultiSelectAutoComplete",
-          "moduleName": "./shared/MultiSelectAutoComplete",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "id": "strategy-multiselect",
           "label": "(CallExpression)",
           "items": "(MemberExpression)",
           "selectedItems": "(MemberExpression)",
@@ -22105,6 +22042,30 @@
           "importType": "ImportDefaultSpecifier"
         },
         "props": {
+          "id": "strategy-multiselect",
+          "label": "(CallExpression)",
+          "items": "(MemberExpression)",
+          "selectedItems": "(MemberExpression)",
+          "loading": "(MemberExpression)",
+          "onCallback": "(ArrowFunctionExpression)",
+          "onCallbackOpen": "(ArrowFunctionExpression)"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/lclemente/proj/icn/icn_react/src/modules/activity_log/components/ActivityLogFilters.jsx",
+          "start": {
+            "line": 200,
+            "column": 13
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "local": "MultiSelectAutoComplete",
+          "moduleName": "./shared/MultiSelectAutoComplete",
+          "importType": "ImportDefaultSpecifier"
+        },
+        "props": {
           "id": "course-type-multiselect",
           "label": "(CallExpression)",
           "items": "(ArrayExpression)",
@@ -22115,7 +22076,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/activity_log/components/ActivityLogFilters.jsx",
           "start": {
-            "line": 200,
+            "line": 211,
             "column": 13
           }
         }
@@ -22138,7 +22099,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/activity_log/components/ActivityLogFilters.jsx",
           "start": {
-            "line": 212,
+            "line": 223,
             "column": 13
           }
         }
@@ -22162,7 +22123,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/activity_log/components/advisor/AdvisorActivitiesFilters.jsx",
           "start": {
-            "line": 140,
+            "line": 148,
             "column": 11
           }
         }
@@ -22186,7 +22147,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/activity_log/components/advisor/AdvisorActivitiesFilters.jsx",
           "start": {
-            "line": 184,
+            "line": 194,
             "column": 13
           }
         }
@@ -22210,7 +22171,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/activity_log/components/advisor/AdvisorActivitiesFilters.jsx",
           "start": {
-            "line": 195,
+            "line": 207,
             "column": 13
           }
         }
@@ -22232,7 +22193,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/activity_log/components/advisor/AdvisorActivitiesFilters.jsx",
           "start": {
-            "line": 206,
+            "line": 220,
             "column": 13
           }
         }
@@ -22351,7 +22312,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/activity_log/components/ActivityLogFilters.jsx",
           "start": {
-            "line": 148,
+            "line": 157,
             "column": 11
           }
         }
@@ -22372,7 +22333,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/activity_log/components/advisor/AdvisorActivitiesFilters.jsx",
           "start": {
-            "line": 155,
+            "line": 161,
             "column": 11
           }
         }
@@ -22417,7 +22378,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/activity_log/components/ActivityLogFilters.jsx",
           "start": {
-            "line": 233,
+            "line": 246,
             "column": 13
           }
         }
@@ -22437,7 +22398,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/activity_log/components/advisor/AdvisorActivitiesFilters.jsx",
           "start": {
-            "line": 225,
+            "line": 243,
             "column": 13
           }
         }
@@ -22475,13 +22436,14 @@
         },
         "props": {
           "to": "(Identifier)",
-          "variant": "columnHeader"
+          "variant": "columnHeader",
+          "onClick": "(Identifier)"
         },
         "propsSpread": false,
         "location": {
-          "file": "/Users/lclemente/proj/icn/icn_react/src/modules/advisor_dashboard/components/cell_renderers/account/Account.jsx",
+          "file": "/Users/lclemente/proj/icn/icn_react/src/modules/advisor_dashboard/components/cell_renderers/account/Account.tsx",
           "start": {
-            "line": 29,
+            "line": 66,
             "column": 7
           }
         }
@@ -22495,14 +22457,57 @@
         },
         "props": {
           "to": "(Identifier)",
-          "variant": "columnHeader"
+          "variant": "columnHeader",
+          "onClick": "(Identifier)"
         },
         "propsSpread": false,
         "location": {
-          "file": "/Users/lclemente/proj/icn/icn_react/src/modules/advisor_dashboard/components/cell_renderers/fund/Fund.jsx",
+          "file": "/Users/lclemente/proj/icn/icn_react/src/modules/advisor_dashboard/components/cell_renderers/fund/Fund.tsx",
           "start": {
-            "line": 24,
+            "line": 71,
             "column": 7
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Link",
+          "local": "Link",
+          "moduleName": "../shared",
+          "importType": "ImportSpecifier"
+        },
+        "props": {
+          "to": "(Identifier)",
+          "variant": "paragraph",
+          "onClick": "(Identifier)"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/lclemente/proj/icn/icn_react/src/modules/advisor_dashboard/components/cell_renderers/investment/Investment.tsx",
+          "start": {
+            "line": 85,
+            "column": 9
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "Link",
+          "local": "Link",
+          "moduleName": "../shared",
+          "importType": "ImportSpecifier"
+        },
+        "props": {
+          "to": "(Identifier)",
+          "variant": "columnHeader",
+          "onClick": "(Identifier)"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/lclemente/proj/icn/icn_react/src/modules/advisor_dashboard/components/cell_renderers/investment/Investment.tsx",
+          "start": {
+            "line": 90,
+            "column": 11
           }
         }
       }
@@ -22576,6 +22581,50 @@
       }
     ]
   },
+  "CreatedAt": {
+    "instances": [
+      {
+        "importInfo": {
+          "imported": "CreatedAt",
+          "local": "CreatedAt",
+          "moduleName": "../shared",
+          "importType": "ImportSpecifier"
+        },
+        "props": {
+          "date": "(ChainExpression)",
+          "type": "(ChainExpression)"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/lclemente/proj/icn/icn_react/src/modules/advisor_dashboard/components/cell_renderers/fund/Fund.tsx",
+          "start": {
+            "line": 76,
+            "column": 11
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "CreatedAt",
+          "local": "CreatedAt",
+          "moduleName": "../shared",
+          "importType": "ImportSpecifier"
+        },
+        "props": {
+          "date": "(MemberExpression)",
+          "type": "(MemberExpression)"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/lclemente/proj/icn/icn_react/src/modules/advisor_dashboard/components/cell_renderers/investment/Investment.tsx",
+          "start": {
+            "line": 95,
+            "column": 15
+          }
+        }
+      }
+    ]
+  },
   "LoadingBar": {
     "instances": [
       {
@@ -22590,7 +22639,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/bulk_investment/components/modals/create_documents_progress/DocumentProgressItem.jsx",
           "start": {
-            "line": 25,
+            "line": 21,
             "column": 24
           }
         }
@@ -22607,7 +22656,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/bulk_investment/components/modals/create_investments_progress/InvestmentProgressItem.jsx",
           "start": {
-            "line": 36,
+            "line": 32,
             "column": 24
           }
         }
@@ -22624,7 +22673,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/letter_of_authorization/components/modals/CreateRequestsProgressModal/RequestProgressItem.jsx",
           "start": {
-            "line": 27,
+            "line": 19,
             "column": 21
           }
         }
@@ -22647,7 +22696,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/bulk_investment/components/modals/create_documents_progress/DocumentProgressItem.jsx",
           "start": {
-            "line": 27,
+            "line": 23,
             "column": 23
           }
         }
@@ -22666,7 +22715,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/bulk_investment/components/modals/create_investments_progress/InvestmentProgressItem.jsx",
           "start": {
-            "line": 38,
+            "line": 34,
             "column": 23
           }
         }
@@ -22685,7 +22734,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/letter_of_authorization/components/modals/CreateRequestsProgressModal/RequestProgressItem.jsx",
           "start": {
-            "line": 29,
+            "line": 21,
             "column": 21
           }
         }
@@ -22709,7 +22758,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/bulk_investment/pages/documents/drawers/UploadFileDrawer.jsx",
           "start": {
-            "line": 158,
+            "line": 146,
             "column": 5
           }
         }
@@ -22729,7 +22778,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/bulk_investment/pages/documents/drawers/prepare_documents/EsignDrawer.jsx",
           "start": {
-            "line": 160,
+            "line": 169,
             "column": 5
           }
         }
@@ -22753,6 +22802,27 @@
             "column": 7
           }
         }
+      },
+      {
+        "importInfo": {
+          "imported": "GenericDrawer",
+          "local": "GenericDrawer",
+          "moduleName": "components/shared/GenericDrawer",
+          "importType": "ImportSpecifier"
+        },
+        "props": {
+          "open": null,
+          "title": "(CallExpression)",
+          "onCloseDrawer": "(Identifier)"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/lclemente/proj/icn/icn_react/src/modules/bulk_investment/pages/pre_approval_quest/pre_approval_quest_drawer/PreApprovalQuestDrawer.jsx",
+          "start": {
+            "line": 46,
+            "column": 5
+          }
+        }
       }
     ]
   },
@@ -22770,7 +22840,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/bulk_investment/pages/documents/drawers/prepare_documents/EsignDrawer.jsx",
           "start": {
-            "line": 100,
+            "line": 116,
             "column": 9
           }
         }
@@ -22894,7 +22964,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/investment_opportunity/containers/Entry/Entry.jsx",
           "start": {
-            "line": 182,
+            "line": 198,
             "column": 7
           }
         }
@@ -23028,7 +23098,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/investment_opportunity/components/ListOpportunities/Tile/Tile.jsx",
           "start": {
-            "line": 297,
+            "line": 275,
             "column": 7
           }
         }
@@ -23074,7 +23144,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/investment_opportunity/components/ListOpportunities/Tile/Tile.jsx",
           "start": {
-            "line": 161,
+            "line": 149,
             "column": 11
           }
         }
@@ -23126,6 +23196,31 @@
         ]
       }
     }
+  },
+  "UploadCompletedDocumentModal": {
+    "instances": [
+      {
+        "importInfo": {
+          "local": "UploadCompletedDocumentModal",
+          "moduleName": "components/shared/upload_completed_document_modal",
+          "importType": "ImportDefaultSpecifier"
+        },
+        "props": {
+          "investmentId": "(MemberExpression)",
+          "getDocuments": "(Identifier)",
+          "onCancel": "(Identifier)",
+          "onClose": "(Identifier)"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/lclemente/proj/icn/icn_react/src/modules/investments/view_documents/components/documents/DocumentButtons.jsx",
+          "start": {
+            "line": 141,
+            "column": 11
+          }
+        }
+      }
+    ]
   },
   "ScrollerContainer": {
     "instances": [
@@ -23196,7 +23291,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/product_profile_builder/components/EditTemplate/EditTemplateActionBar.jsx",
           "start": {
-            "line": 247,
+            "line": 225,
             "column": 9
           }
         }
@@ -23214,7 +23309,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/product_profile_builder/components/TemplateIndex/TemplateActionsMenuRenderer.jsx",
           "start": {
-            "line": 102,
+            "line": 94,
             "column": 9
           }
         }
@@ -23237,7 +23332,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/product_profile_builder/components/FundProfile/Header.jsx",
           "start": {
-            "line": 263,
+            "line": 275,
             "column": 15
           }
         }
@@ -23256,7 +23351,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/product_profile_builder/components/FundProfile/Header.jsx",
           "start": {
-            "line": 268,
+            "line": 280,
             "column": 15
           }
         }
@@ -23275,7 +23370,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/product_profile_builder/components/FundProfile/Header.jsx",
           "start": {
-            "line": 273,
+            "line": 285,
             "column": 15
           }
         }
@@ -23297,7 +23392,7 @@
         "location": {
           "file": "/Users/lclemente/proj/icn/icn_react/src/modules/product_profile_builder/components/FundProfile/Header.jsx",
           "start": {
-            "line": 278,
+            "line": 290,
             "column": 15
           }
         }
