@@ -15,7 +15,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/Shell.tsx",
           "start": {
-            "line": 53,
+            "line": 59,
             "column": 11
           }
         }
@@ -130,7 +130,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/new_investor_profile/NewInvestorProfile.jsx",
           "start": {
-            "line": 217,
+            "line": 221,
             "column": 13
           }
         }
@@ -275,7 +275,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/modules/fund_profile/components/Header/FundAnalyze.jsx",
           "start": {
-            "line": 51,
+            "line": 54,
             "column": 7
           }
         }
@@ -435,7 +435,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/modules/product_profile_builder/components/FundProfile/Content/Diligence/Documents.jsx",
           "start": {
-            "line": 76,
+            "line": 69,
             "column": 7
           }
         }
@@ -2056,8 +2056,8 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/index/DataDashboardIndex.jsx",
           "start": {
-            "line": 442,
-            "column": 13
+            "line": 434,
+            "column": 9
           }
         }
       },
@@ -2171,7 +2171,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/icn_header/icnHeader.jsx",
           "start": {
-            "line": 389,
+            "line": 392,
             "column": 7
           }
         }
@@ -2194,7 +2194,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/icn_header/icnHeader.jsx",
           "start": {
-            "line": 417,
+            "line": 420,
             "column": 7
           }
         }
@@ -3222,7 +3222,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/investment_dashboard/id_investment_summary/IDInvestmentSummary.jsx",
           "start": {
-            "line": 224,
+            "line": 218,
             "column": 9
           }
         }
@@ -3956,8 +3956,8 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/index/DataDashboardIndex.jsx",
           "start": {
-            "line": 393,
-            "column": 15
+            "line": 386,
+            "column": 13
           }
         }
       },
@@ -4551,8 +4551,8 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/index/DataDashboardIndex.jsx",
           "start": {
-            "line": 448,
-            "column": 11
+            "line": 437,
+            "column": 9
           }
         }
       },
@@ -4594,8 +4594,8 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/index/DataDashboardIndex.jsx",
           "start": {
-            "line": 451,
-            "column": 15
+            "line": 440,
+            "column": 13
           }
         }
       },
