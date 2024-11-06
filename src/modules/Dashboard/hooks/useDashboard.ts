@@ -1,13 +1,13 @@
 import { SetStateAction, useEffect, useState } from 'react';
 import counter from '../../../utils/counter';
-import SharedUsage from '../../../data/legacy/usage.json';
-import RCLUsage from '../../../data/rcl/usage.json';
-import SupernovaUsage from '../../../data/supernova/usage.json';
-import othersUsage from '../../../data/other-packages/react-bootstrap-usage.json';
-import SharedDetailedInfo from '../../../data/legacy/usage-details.json';
-import RCLDetailedInfo from '../../../data/rcl/usage-details.json';
-import SupernovaDetailedInfo from '../../../data/supernova/usage-details.json';
-import OtherDetailedInfo from '../../../data/other-packages/react-bootstrap-usage-details.json';
+import SharedUsage from '../../../data/current/legacy/usage.json';
+import RCLUsage from '../../../data/current/rcl/usage.json';
+import SupernovaUsage from '../../../data/current/supernova/usage.json';
+import othersUsage from '../../../data/current/other-packages/react-bootstrap-usage.json';
+import SharedDetailedInfo from '../../../data/current/legacy/usage-details.json';
+import RCLDetailedInfo from '../../../data/current/rcl/usage-details.json';
+import SupernovaDetailedInfo from '../../../data/current/supernova/usage-details.json';
+import OtherDetailedInfo from '../../../data/current/other-packages/react-bootstrap-usage-details.json';
 import { CountUsage } from '../../../components/StatsCard/StatsCard';
 
 export enum DataTypes {

@@ -1,0 +1,48 @@
+{
+  "Badge": {
+    "instances": [
+      {
+        "importInfo": {
+          "imported": "Badge",
+          "local": "Badge",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {
+          "pill": null,
+          "className": "(Identifier)",
+          "style": "(Identifier)"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/bpinto/Developer/icn/icn_react/src/components/shared/icn_block_card_with_badge/IcnBlockCardWithBadge/IcnBlockCardWithBadge.jsx",
+          "start": {
+            "line": 57,
+            "column": 7
+          }
+        }
+      }
+    ]
+  },
+  "Container": {
+    "instances": [
+      {
+        "importInfo": {
+          "imported": "Container",
+          "local": "Container",
+          "moduleName": "react-bootstrap",
+          "importType": "ImportSpecifier"
+        },
+        "props": {},
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/bpinto/Developer/icn/icn_react/src/components/shared/icn_form/icn_form_schema/custom_fields/ErrorsBanner.jsx",
+          "start": {
+            "line": 10,
+            "column": 5
+          }
+        }
+      }
+    ]
+  }
+}
