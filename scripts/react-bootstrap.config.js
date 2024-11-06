@@ -1,7 +1,7 @@
 module.exports = {
     crawlFrom: "../icn_react/src",
     includeSubComponents: true,
-    importedFrom: /^react-bootstrap(?:\/.*)?$/,
+    importedFrom: /^react-bootstrap(\/[^\/]*)*$/gm,
     exclude: [
         "../icn_react/src/**/!(*.test|*.spec).@(js|ts)?(x)",
         "../icn_react/src/__tests__/**/*.@(js|ts)?(x)"
