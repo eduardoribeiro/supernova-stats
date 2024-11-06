@@ -21,16 +21,16 @@ export interface CountUsage {
 export type StatsCardProps = {
   totals: CountUsage[];
   title: string;
-  handleCkick: (section: DataTypes) => void;
+  handleClick: (section: DataTypes) => void;
 };
 
 export type StatsCardComponent = ({
   totals,
   title,
-  handleCkick,
+  handleClick,
 }: StatsCardProps) => JSX.Element;
 
-const StatsCard: StatsCardComponent = ({ totals, title, handleCkick }) => (
+const StatsCard: StatsCardComponent = ({ totals, title, handleClick }) => (
   <Card showBorder={false} elevation={8}>
     <CardHeader title={<Typography variant="h4">{title}</Typography>} />
     <Divider sx={{ marginTop: 0.5 }} />
@@ -41,7 +41,7 @@ const StatsCard: StatsCardComponent = ({ totals, title, handleCkick }) => (
             .sort((a: CountUsage, b: CountUsage) => b.total - a.total)
             .map(({ icon, name, total }, index, totals) => (
               <Fragment key={name + total}>
-                <Button variant='text' onClick={() => handleCkick(icon)}>
+                <Button variant='text' onClick={() => handleClick(icon)}>
                 <KeyAttribute
                   icon={<CustomIcon icon={icon ?? null} />}
                   label={name}

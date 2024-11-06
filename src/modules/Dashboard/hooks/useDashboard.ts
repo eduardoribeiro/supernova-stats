@@ -1,13 +1,22 @@
 import { SetStateAction, useEffect, useState } from 'react';
 import counter from '../../../utils/counter';
-import SharedUsage from '../../../data/current/legacy/usage.json';
-import RCLUsage from '../../../data/current/rcl/usage.json';
-import SupernovaUsage from '../../../data/current/supernova/usage.json';
-import othersUsage from '../../../data/current/other-packages/react-bootstrap-usage.json';
-import SharedDetailedInfo from '../../../data/current/legacy/usage-details.json';
-import RCLDetailedInfo from '../../../data/current/rcl/usage-details.json';
-import SupernovaDetailedInfo from '../../../data/current/supernova/usage-details.json';
-import OtherDetailedInfo from '../../../data/current/other-packages/react-bootstrap-usage-details.json';
+import SharedUsageOriginal from '../../../data/original/legacy/usage.json';
+import RCLUsageOriginal from '../../../data/original/rcl/usage.json';
+import SupernovaUsageOriginal from '../../../data/original/supernova/usage.json';
+import othersUsageOriginal from '../../../data/original/other-packages/react-bootstrap-usage.json';
+import SharedDetailedInfoOriginal from '../../../data/original/legacy/usage-details.json';
+import RCLDetailedInfoOriginal from '../../../data/original/rcl/usage-details.json';
+import SupernovaDetailedInfoOriginal from '../../../data/original/supernova/usage-details.json';
+import OtherDetailedInfoOriginal from '../../../data/original/other-packages/react-bootstrap-usage-details.json';
+import SharedUsageCurrent from '../../../data/current/legacy/usage.json';
+import RCLUsageCurrent from '../../../data/current/rcl/usage.json';
+import SupernovaUsageCurrent from '../../../data/current/supernova/usage.json';
+import othersUsageCurrent from '../../../data/current/other-packages/react-bootstrap-usage.json';
+import SharedDetailedInfoCurrent from '../../../data/current/legacy/usage-details.json';
+import RCLDetailedInfoCurrent from '../../../data/current/rcl/usage-details.json';
+import SupernovaDetailedInfoCurrent from '../../../data/current/supernova/usage-details.json';
+import OtherDetailedInfoCurrent from '../../../data/current/other-packages/react-bootstrap-usage-details.json';
+
 import { CountUsage } from '../../../components/StatsCard/StatsCard';
 
 export enum DataTypes {
@@ -60,17 +69,33 @@ type MappingType = {
 }
 
 const DataMapping = {
-  rcl: RCLUsage,
-  supernova: SupernovaUsage,
-  shared: SharedUsage,
-  other: othersUsage,
+  original: {
+    rcl: RCLUsageOriginal,
+    supernova: SupernovaUsageOriginal,
+    shared: SharedUsageOriginal,
+    other: othersUsageOriginal,
+  },
+  current: {
+    rcl: RCLUsageCurrent,
+    supernova: SupernovaUsageCurrent,
+    shared: SharedUsageCurrent,
+    other: othersUsageCurrent,
+  }
 };
 
 const DetailData: MappingType = {
-  rcl: RCLDetailedInfo,
-  supernova: SupernovaDetailedInfo,
-  shared: SharedDetailedInfo,
-  other: OtherDetailedInfo
+  original: {
+    rcl: RCLDetailedInfoOriginal,
+    supernova: SupernovaDetailedInfoOriginal,
+    shared: SharedDetailedInfoOriginal,
+    other: OtherDetailedInfoOriginal
+  },
+  current: {
+    rcl: RCLDetailedInfoCurrent,
+    supernova: SupernovaDetailedInfoCurrent,
+    shared: SharedDetailedInfoCurrent,
+    other: OtherDetailedInfoCurrent
+  }
 }
 
 export type CountedDataItem = ListDataItem & {
@@ -92,6 +117,9 @@ const aggregateData = (data: ListDataItem[]) => data?.reduce((prev: CountedDataI
 }, []).sort((a, b) => a.count > b.count ? -1 : 1);
 
 const useDashboard = () => {
+  const [tabValue, setTabValue] = useState(0);
+  const [tabValueMain, setTabValueMain] = useState(1);
+  const [dataset, setDataset] = useState<"original" | "current">("current");
   const [totals, setTotals] = useState<CountUsage[]>([]);
   const [selectedData, setSelectedData] = useState<ListData[]>([]);
   const [actualView, setActualView] = useState<DataTypes | ''>('');
@@ -102,32 +130,32 @@ const useDashboard = () => {
     const sharedTotals = {
       icon: DataTypes.Shared,
       name: 'Shared Folder',
-      total: counter(DataMapping[DataTypes.Shared]),
+      total: counter(DataMapping[dataset][DataTypes.Shared]),
     };
     const rclTotals = {
       icon: DataTypes.RCL,
       name: 'React Component Library',
-      total: counter(DataMapping[DataTypes.RCL]),
+      total: counter(DataMapping[dataset][DataTypes.RCL]),
     };
     const othersTotals = {
       icon: DataTypes.Others,
       name: 'Other Packages',
-      total: counter(DataMapping[DataTypes.Others]),
+      total: counter(DataMapping[dataset][DataTypes.Others]),
     };
     const supernovaTotals = {
       icon: DataTypes.Supernova,
       name: 'Supernova',
-      total: counter(DataMapping[DataTypes.Supernova]),
+      total: counter(DataMapping[dataset][DataTypes.Supernova]),
     };
     setTotals([supernovaTotals, rclTotals, sharedTotals, othersTotals]);
   };
   
-  useEffect(() => updateValues(), []);
+  useEffect(() => updateValues(), [tabValueMain]);
 
   const handleClick = (section: DataTypes) => {
     if (!section) return;
     setActualView(section)
-    const actualObject = DataMapping[section];
+    const actualObject = DataMapping[dataset][section];
     const newStats: SetStateAction<ListData[]> = [];
     Object.keys(actualObject).forEach((key: string) => {
       return newStats.push({
@@ -141,7 +169,7 @@ const useDashboard = () => {
 
   const handleSelectComponent = (componentName: string) => {
     if(actualView === '') return;
-    const JsonData = DetailData[actualView];
+    const JsonData = DetailData[dataset][actualView];
     setComponentDetailsOpen(true);
     setSelectedComponent(aggregateData(JsonData[componentName].instances));
   };
@@ -167,9 +195,16 @@ const useDashboard = () => {
 
   const getComponentData: (componentName: string) => CountedDataItem[] | undefined = (componentName) => {
     if(actualView === '') return;
-    const JsonData = DetailData[actualView];
+    const JsonData = DetailData[dataset][actualView];
     return aggregateData(JsonData[componentName]?.instances);
   };
+
+  const handleTabValueMain = (newTabValueMain: number) => {
+    setTabValueMain(newTabValueMain);
+    setDataset(newTabValueMain == 0 ? 'original' : 'current');
+    setSelectedData([]);
+    updateValues();
+  }
 
   return {
     totals,
@@ -181,6 +216,10 @@ const useDashboard = () => {
     toggleDrawer,
     getSharedDepedency,
     getComponentData,
+    tabValue,
+    tabValueMain,
+    setTabValue,
+    handleTabValueMain,
   };
 };
 
