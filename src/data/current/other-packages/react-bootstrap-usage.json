@@ -1,4 +1,20 @@
 {
-  "Badge": 1,
-  "Container": 1
+  "Row": 32,
+  "Col": 14,
+  "Container": 10,
+  "Tooltip": 9,
+  "Table": 6,
+  "Overlay": 5,
+  "Badge": 4,
+  "Alert": 3,
+  "ProgressBar": 3,
+  "Nav.Item": 2,
+  "OverlayTrigger": 2,
+  "Popover": 2,
+  "Accordion": 1,
+  "AccordionToggle": 1,
+  "Card.Body": 1,
+  "Tab.Container": 1,
+  "Tab.Content": 1,
+  "Tab.Pane": 1
 }
