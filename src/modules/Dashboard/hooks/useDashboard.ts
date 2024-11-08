@@ -176,9 +176,10 @@ const useDashboard = () => {
 
   const getSharedDepedency = (file: string, isSubComponent: boolean) => {
     const occurrences: InstancedDataItem = { instances: [] };
-    console.log(file)
-    Object.keys(DetailData).forEach(detail => {
-      const innerDetail = DetailData[detail];
+    console.log(file);
+
+    Object.keys(DetailData[dataset]).forEach(detail => {
+      const innerDetail = DetailData[dataset][detail];
       Object.keys(innerDetail).forEach(a => {
         const dependant = isSubComponent ?
           innerDetail[a]?.instances?.filter((e: ListDataItem) => e?.location?.file?.match(file)) :
