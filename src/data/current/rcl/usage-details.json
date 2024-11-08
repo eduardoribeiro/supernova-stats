@@ -130,7 +130,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/new_investor_profile/NewInvestorProfile.jsx",
           "start": {
-            "line": 221,
+            "line": 222,
             "column": 13
           }
         }
@@ -3222,7 +3222,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/investment_dashboard/id_investment_summary/IDInvestmentSummary.jsx",
           "start": {
-            "line": 218,
+            "line": 217,
             "column": 9
           }
         }
