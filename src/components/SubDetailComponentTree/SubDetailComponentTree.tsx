@@ -44,7 +44,7 @@ const SubDetailComponentTree: SubDetailComponentTreeType = ({
       nodeId={reactKey}
       label={<Stack gap={1} direction="row"><Chip sx={{ minWidth: 35 }} label={componentData.count} size="small"></Chip>{componentData?.location?.file?.split('/').pop()?.replace('.jsx', '')}<Chip color="error" sx={{ minWidth: 35 }} label={(sharedDependency?.length ?? 0)+(subDependency?.length ?? 0)} size="small"></Chip></Stack>}
     >
-      { (sharedDependency?.length || subDependency?.length) && (
+      { sharedDependency && subDependency && (sharedDependency.length > 0 || subDependency.length > 0) && (
         <Box>
           { sharedDependency?.map((dependencyData) => 
             <SubDetailComponentTree

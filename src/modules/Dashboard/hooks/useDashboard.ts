@@ -167,10 +167,10 @@ const useDashboard = () => {
     setSelectedData(newStats);
   };
 
-  const handleSelectComponent = (componentName: string) => {
+  const handleSelectComponent = (componentName: string) => { console.log(componentName)
     if(actualView === '') return;
     const JsonData = DetailData[dataset][actualView];
-    setComponentDetailsOpen(true);
+    setComponentDetailsOpen(!componentDetailsOpen);
     setSelectedComponent(aggregateData(JsonData[componentName].instances));
   };
 
