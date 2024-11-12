@@ -1,7 +1,7 @@
 var date = new Date(),
  formattedDate = date.toISOString().split('T')[0].replaceAll('-', ''),
- fileName = process.argv.slice(2)[2],
- crawlFrom = process.argv.slice(2)[3],
+ fileName = process.argv.slice(2)[3],
+ crawlFrom = process.argv.slice(2)[2],
  regex;
 switch(fileName){
     case('shared'):
