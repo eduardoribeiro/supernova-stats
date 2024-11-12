@@ -1,9 +1,17 @@
 var date = new Date(),
  formattedDate = date.toISOString().split('T')[0].replaceAll('-', ''),
- fileName = process.argv.slice(2)[3],
- crawlFrom = process.argv.slice(2)[2],
+ args = process.argv.slice(2),
+ flags = {},
  regex;
-switch(fileName){
+
+
+args.forEach(function(arg, index){
+    if(arg.startsWith('--')){
+        flags[arg.replace('--', '')] = args[index + 1];
+    }
+});
+
+switch(flags.package){
     case('shared'):
         regex = /^[^\/]+\/shared\/?(?:[^\/]+\/?)*$/;
         break;
@@ -21,23 +29,23 @@ switch(fileName){
         break;
 }
 
-console.log('Generating reports for '+fileName);
-console.log('Now crawling '+ crawlFrom);
+console.log('Generating reports for '+flags.package);
+console.log('Now crawling '+flags.from);
 
 module.exports = {
-    crawlFrom: crawlFrom,
+    crawlFrom: flags.from,
     includeSubComponents: true,
     importedFrom: regex,
     exclude: [
-        `${crawlFrom}/**/!(*.test|*.spec).@(js|ts)?(x)`,
-        `${crawlFrom}/__tests__/**/*.@(js|ts)?(x)`
+        `${flags.from}/**/!(*.test|*.spec).@(js|ts)?(x)`,
+        `${flags.from}/__tests__/**/*.@(js|ts)?(x)`
     ],
     processors: [
         ["count-components", {
-            outputTo: `./${fileName}/stats-${formattedDate}.json`
+            outputTo: `./${flags.package}/stats-${formattedDate}.json`
         }],
         ["raw-report", {
-            outputTo: `./${fileName}/details-${formattedDate}.json`
+            outputTo: `./${flags.package}/details-${formattedDate}.json`
         }]
     ]
 };
