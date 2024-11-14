@@ -167,11 +167,14 @@ const useDashboard = () => {
     setSelectedData(newStats);
   };
 
-  const handleSelectComponent = (componentName: string) => {
-    if(actualView === '') return;
+  const handleSelectComponent = (componentName: string | undefined) => {
+    if (componentName === undefined || actualView === '') {
+      setComponentDetailsOpen(false);
+      setSelectedComponent([]);
+      return;
+    }
+    setComponentDetailsOpen(true);
     const JsonData = DetailData[dataset][actualView];
-    setComponentDetailsOpen(!componentDetailsOpen);
-
     const regex = /[a-zA-Z]\.[a-zA-Z]/;
     const match = componentName.match(regex);
     if (match) {

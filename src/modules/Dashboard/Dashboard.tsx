@@ -8,7 +8,7 @@ import DetailComponentTree from '../../components/DetailComponentTree';
 
 const Dashboard = () => {
   const { totals, selectedData, handleClick, selectedComponent, handleSelectComponent, componentDetailsOpen,
-    toggleDrawer, getSharedDepedency, getComponentData, tabValue, tabValueMain, setTabValue, handleTabValueMain } = useDashboard();
+    toggleDrawer, getSharedDepedency, getComponentData, tabValue, tabValueMain, setTabValue, handleTabValueMain} = useDashboard();
   return (
     <>
       <Tabs value={tabValueMain} onChange={(_, newTabValueMain) => handleTabValueMain(newTabValueMain)}>
@@ -19,7 +19,7 @@ const Dashboard = () => {
           <StatsCard title="ICN - Original" totals={totals} handleClick={handleClick} />
           <br/>
           {selectedData.length > 0 && (
-            <Tabs value={tabValue} onChange={(_, newTabValue) => setTabValue(newTabValue)}>
+          <Tabs value={tabValue} onChange={(_, newTabValue) => { setTabValue(newTabValue); handleSelectComponent(undefined); }}>
               <Tab label="List" />
               <Tab label="Tree" />
             </Tabs>
@@ -32,7 +32,7 @@ const Dashboard = () => {
           <StatsCard title="ICN - Current" totals={totals} handleClick={handleClick} />
           <br/>
           {selectedData.length > 0 && (
-            <Tabs value={tabValue} onChange={(_, newTabValue) => setTabValue(newTabValue)}>
+            <Tabs value={tabValue} onChange={(_, newTabValue) => { setTabValue(newTabValue); handleSelectComponent(undefined); }}>
               <Tab label="List" />
               <Tab label="Tree" />
             </Tabs>
