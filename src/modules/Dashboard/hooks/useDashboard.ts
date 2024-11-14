@@ -167,11 +167,19 @@ const useDashboard = () => {
     setSelectedData(newStats);
   };
 
-  const handleSelectComponent = (componentName: string) => { console.log(componentName)
+  const handleSelectComponent = (componentName: string) => {
     if(actualView === '') return;
     const JsonData = DetailData[dataset][actualView];
     setComponentDetailsOpen(!componentDetailsOpen);
-    setSelectedComponent(aggregateData(JsonData[componentName].instances));
+
+    const regex = /[a-zA-Z]\.[a-zA-Z]/;
+    const match = componentName.match(regex);
+    if (match) {
+      const componentNameSplited = componentName.split('.');
+      setSelectedComponent(aggregateData(JsonData[componentNameSplited[0]]?.components[componentNameSplited[1]]?.instances));
+    } else {
+      setSelectedComponent(aggregateData(JsonData[componentName].instances));
+    }
   };
 
   const getSharedDepedency = (file: string, isSubComponent: boolean) => {
