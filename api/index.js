@@ -1,8 +1,8 @@
-const express = require('express');
+const fastify = require('fastify');
 const sqlite3 = require('sqlite3').verbose();
 
-const app = express();
-const port = process.env.PORT || 3000;
+const app = fastify();
+const port = process.env.PORT || 4001;
 
 const db = new sqlite3.Database('./db/stats.db', (err) => {
   if (err) {
