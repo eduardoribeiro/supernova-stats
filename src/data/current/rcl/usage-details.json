@@ -15,8 +15,27 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/Shell.tsx",
           "start": {
-            "line": 59,
+            "line": 56,
             "column": 11
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "imported": "IcnSpinner",
+          "local": "IcnSpinner",
+          "moduleName": "@icapitalnetwork/react-component-library",
+          "importType": "ImportSpecifier"
+        },
+        "props": {
+          "isFetching": null
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/bpinto/Developer/icn/icn_react/src/Shell.tsx",
+          "start": {
+            "line": 161,
+            "column": 42
           }
         }
       },
@@ -92,7 +111,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/manage_document_definition/index.jsx",
           "start": {
-            "line": 88,
+            "line": 89,
             "column": 7
           }
         }
@@ -111,8 +130,8 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/shared/modals/InvestmentEventsModal/InvestmentEventsModal.jsx",
           "start": {
-            "line": 142,
-            "column": 9
+            "line": 126,
+            "column": 5
           }
         }
       },
@@ -332,7 +351,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/modules/investments/shared/document_box/DocumentUploadBox.jsx",
           "start": {
-            "line": 194,
+            "line": 164,
             "column": 7
           }
         }
@@ -645,7 +664,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/modules/investment_opportunity/components/ExploreInvestmentOpportunities/ExploreInvestmentOpportunities.jsx",
           "start": {
-            "line": 80,
+            "line": 82,
             "column": 7
           }
         }
@@ -666,7 +685,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/modules/investment_opportunity/components/ExploreInvestmentOpportunities/ExploreInvestmentOpportunities.jsx",
           "start": {
-            "line": 101,
+            "line": 103,
             "column": 7
           }
         }
@@ -709,7 +728,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/modules/landing_page/components/home/Announcement/AnnouncementList.jsx",
           "start": {
-            "line": 42,
+            "line": 38,
             "column": 7
           }
         }
@@ -908,95 +927,6 @@
           "importType": "ImportSpecifier"
         },
         "props": {
-          "pullRight": null,
-          "text": "Load Data",
-          "callback": "(MemberExpression)",
-          "size": "sm"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/components/data_dashboard/data_syncs/DDModal.jsx",
-          "start": {
-            "line": 275,
-            "column": 9
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "imported": "IcnButton",
-          "local": "IcnButton",
-          "moduleName": "@icapitalnetwork/react-component-library",
-          "importType": "ImportSpecifier"
-        },
-        "props": {
-          "callback": "(ConditionalExpression)",
-          "size": "md",
-          "styleType": "primary",
-          "text": "(ConditionalExpression)",
-          "disabled": "(CallExpression)"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/components/data_dashboard/data_syncs/DDModal.jsx",
-          "start": {
-            "line": 291,
-            "column": 19
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "imported": "IcnButton",
-          "local": "IcnButton",
-          "moduleName": "@icapitalnetwork/react-component-library",
-          "importType": "ImportSpecifier"
-        },
-        "props": {
-          "callback": "(MemberExpression)",
-          "size": "md",
-          "styleType": "secondary",
-          "text": "Cancel"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/components/data_dashboard/data_syncs/DDModal.jsx",
-          "start": {
-            "line": 301,
-            "column": 19
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "imported": "IcnButton",
-          "local": "IcnButton",
-          "moduleName": "@icapitalnetwork/react-component-library",
-          "importType": "ImportSpecifier"
-        },
-        "props": {
-          "callback": "(MemberExpression)",
-          "size": "md",
-          "styleType": "secondary",
-          "text": "Back"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/components/data_dashboard/data_syncs/DDModal.jsx",
-          "start": {
-            "line": 311,
-            "column": 21
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "imported": "IcnButton",
-          "local": "IcnButton",
-          "moduleName": "@icapitalnetwork/react-component-library",
-          "importType": "ImportSpecifier"
-        },
-        "props": {
           "size": "md",
           "callback": "(Identifier)"
         },
@@ -1004,7 +934,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/DefinitionsHeader.jsx",
           "start": {
-            "line": 90,
+            "line": 92,
             "column": 13
           }
         }
@@ -1196,30 +1126,6 @@
           "start": {
             "line": 190,
             "column": 11
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "imported": "IcnButton",
-          "local": "IcnButton",
-          "moduleName": "@icapitalnetwork/react-component-library",
-          "importType": "ImportSpecifier"
-        },
-        "props": {
-          "styleType": "secondary",
-          "size": "lg",
-          "pullRight": null,
-          "callback": "(MemberExpression)",
-          "text": "(MemberExpression)",
-          "disabled": "(UnaryExpression)"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/components/notification_events/form/NotificationEventForm.jsx",
-          "start": {
-            "line": 270,
-            "column": 15
           }
         }
       },
@@ -1963,112 +1869,6 @@
           "importType": "ImportSpecifier"
         },
         "props": {
-          "text": "ETL Data",
-          "callback": "(MemberExpression)",
-          "size": "sm"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/DataDashboard.jsx",
-          "start": {
-            "line": 107,
-            "column": 17
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "imported": "IcnButton",
-          "local": "IcnButton",
-          "moduleName": "@icapitalnetwork/react-component-library",
-          "importType": "ImportSpecifier"
-        },
-        "props": {
-          "text": "Schema",
-          "callback": "(MemberExpression)",
-          "size": "sm",
-          "disabled": "(UnaryExpression)"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/DataDashboard.jsx",
-          "start": {
-            "line": 108,
-            "column": 17
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "imported": "IcnButton",
-          "local": "IcnButton",
-          "moduleName": "@icapitalnetwork/react-component-library",
-          "importType": "ImportSpecifier"
-        },
-        "props": {
-          "pullRight": null,
-          "text": "Cancel",
-          "callback": "(ArrowFunctionExpression)"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/data_sync/index/DataDashboardDataSyncIndex.jsx",
-          "start": {
-            "line": 98,
-            "column": 13
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "imported": "IcnButton",
-          "local": "IcnButton",
-          "moduleName": "@icapitalnetwork/react-component-library",
-          "importType": "ImportSpecifier"
-        },
-        "props": {
-          "pullRight": null,
-          "text": "Download Output",
-          "callback": "(ArrowFunctionExpression)"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/data_sync/index/DataDashboardDataSyncIndex.jsx",
-          "start": {
-            "line": 106,
-            "column": 13
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "imported": "IcnButton",
-          "local": "IcnButton",
-          "moduleName": "@icapitalnetwork/react-component-library",
-          "importType": "ImportSpecifier"
-        },
-        "props": {
-          "text": "Reset Filters",
-          "callback": "(MemberExpression)",
-          "size": "sm"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/index/DataDashboardIndex.jsx",
-          "start": {
-            "line": 434,
-            "column": 9
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "imported": "IcnButton",
-          "local": "IcnButton",
-          "moduleName": "@icapitalnetwork/react-component-library",
-          "importType": "ImportSpecifier"
-        },
-        "props": {
           "styleType": "primary",
           "size": "lg",
           "type": "button",
@@ -2164,14 +1964,14 @@
           "size": "sm",
           "styleType": "impersonate",
           "className": "icn_btn_impersonate\n          impersonation_btn_border\n          impersonation_btn_txt\n          impersonation_btn_txt_hover\n          pull-right",
-          "callback": "(MemberExpression)",
+          "callback": "(Identifier)",
           "text": "(CallExpression)"
         },
         "propsSpread": false,
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/icn_header/icnHeader.jsx",
           "start": {
-            "line": 392,
+            "line": 348,
             "column": 7
           }
         }
@@ -2194,7 +1994,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/icn_header/icnHeader.jsx",
           "start": {
-            "line": 420,
+            "line": 373,
             "column": 7
           }
         }
@@ -2285,7 +2085,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/investor_profile/investor_profile_main_container/InvestorProfileMainContainer.jsx",
           "start": {
-            "line": 377,
+            "line": 378,
             "column": 19
           }
         }
@@ -2308,7 +2108,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/investor_profile/investor_profile_main_container/InvestorProfileMainContainer.jsx",
           "start": {
-            "line": 385,
+            "line": 386,
             "column": 17
           }
         }
@@ -3956,7 +3756,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/index/DataDashboardIndex.jsx",
           "start": {
-            "line": 386,
+            "line": 390,
             "column": 13
           }
         }
@@ -4175,7 +3975,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/sales_detail/view_invite_history/vih_table/ViewInviteHistoryTable.jsx",
           "start": {
-            "line": 214,
+            "line": 226,
             "column": 11
           }
         }
@@ -4198,7 +3998,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/sales_detail/view_invite_history/vih_table/ViewInviteHistoryTable.jsx",
           "start": {
-            "line": 228,
+            "line": 240,
             "column": 11
           }
         }
@@ -4221,7 +4021,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/sales_detail/view_invite_history/vih_table/ViewInviteHistoryTable.jsx",
           "start": {
-            "line": 260,
+            "line": 272,
             "column": 11
           }
         }
@@ -4244,7 +4044,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/sales_detail/view_invite_history/vih_table/ViewInviteHistoryTable.jsx",
           "start": {
-            "line": 292,
+            "line": 304,
             "column": 11
           }
         }
@@ -4551,7 +4351,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/index/DataDashboardIndex.jsx",
           "start": {
-            "line": 437,
+            "line": 440,
             "column": 9
           }
         }
@@ -4594,7 +4394,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/index/DataDashboardIndex.jsx",
           "start": {
-            "line": 440,
+            "line": 443,
             "column": 13
           }
         }
@@ -4846,7 +4646,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/sales_detail/view_invite_history/vih_table/ViewInviteHistoryTable.jsx",
           "start": {
-            "line": 213,
+            "line": 225,
             "column": 9
           }
         }
@@ -5037,7 +4837,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/modules/investments/required_documents/modals/AddAmlModal.jsx",
           "start": {
-            "line": 46,
+            "line": 42,
             "column": 5
           }
         }
@@ -5065,7 +4865,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/modules/investments/required_documents/modals/AddAmlModal.jsx",
           "start": {
-            "line": 63,
+            "line": 59,
             "column": 15
           }
         }

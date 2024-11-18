@@ -12,7 +12,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/App.jsx",
           "start": {
-            "line": 974,
+            "line": 985,
             "column": 58
           }
         }
@@ -324,7 +324,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/modules/configuration_master/components/modals/components/PreviewAffectedResources.jsx",
           "start": {
-            "line": 50,
+            "line": 43,
             "column": 7
           }
         }
@@ -363,8 +363,8 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/App.jsx",
           "start": {
-            "line": 1012,
-            "column": 13
+            "line": 1024,
+            "column": 15
           }
         }
       },
@@ -701,7 +701,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/new_investor_profile/components/modal/ProfilesToUpdateModal/ProfilesToUpdateModal.jsx",
           "start": {
-            "line": 24,
+            "line": 23,
             "column": 7
           }
         }
@@ -857,7 +857,7 @@
           "formData": "(Identifier)",
           "uiSchema": "(Identifier)",
           "onChangeModel": "(Identifier)",
-          "formRef": "(ArrowFunctionExpression)"
+          "formRef": "(Identifier)"
         },
         "propsSpread": false,
         "location": {
@@ -1558,7 +1558,7 @@
         "props": {
           "style": "(ObjectExpression)",
           "clearable": null,
-          "optionLabel": "WLP Filter",
+          "optionLabel": "(CallExpression)",
           "options": "(MemberExpression)",
           "selected": "(MemberExpression)",
           "labelKey": "value",
@@ -1569,7 +1569,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/DefinitionsHeader.jsx",
           "start": {
-            "line": 29,
+            "line": 31,
             "column": 11
           }
         }
@@ -1583,7 +1583,7 @@
         "props": {
           "style": "(ObjectExpression)",
           "clearable": null,
-          "optionLabel": "PAF Filter",
+          "optionLabel": "(CallExpression)",
           "options": "(MemberExpression)",
           "selected": "(MemberExpression)",
           "labelKey": "value",
@@ -1594,7 +1594,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/DefinitionsHeader.jsx",
           "start": {
-            "line": 41,
+            "line": 43,
             "column": 11
           }
         }
@@ -1608,7 +1608,7 @@
         "props": {
           "style": "(ObjectExpression)",
           "clearable": null,
-          "optionLabel": "Sub Doc Type Filter",
+          "optionLabel": "(CallExpression)",
           "options": "(MemberExpression)",
           "selected": "(MemberExpression)",
           "labelKey": "value",
@@ -1619,7 +1619,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/DefinitionsHeader.jsx",
           "start": {
-            "line": 53,
+            "line": 55,
             "column": 11
           }
         }
@@ -1633,7 +1633,7 @@
         "props": {
           "style": "(ObjectExpression)",
           "clearable": null,
-          "optionLabel": "Limit Code Filter",
+          "optionLabel": "(CallExpression)",
           "options": "(MemberExpression)",
           "selected": "(MemberExpression)",
           "labelKey": "value",
@@ -1644,7 +1644,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/DefinitionsHeader.jsx",
           "start": {
-            "line": 65,
+            "line": 67,
             "column": 11
           }
         }
@@ -1658,7 +1658,7 @@
         "props": {
           "style": "(ObjectExpression)",
           "clearable": null,
-          "optionLabel": "Document Type Filter",
+          "optionLabel": "(CallExpression)",
           "options": "(MemberExpression)",
           "selected": "(MemberExpression)",
           "labelKey": "value",
@@ -1669,7 +1669,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/DefinitionsHeader.jsx",
           "start": {
-            "line": 77,
+            "line": 79,
             "column": 11
           }
         }
@@ -1683,7 +1683,7 @@
         "props": {
           "style": "(ObjectExpression)",
           "clearable": null,
-          "optionLabel": "Firm Filter",
+          "optionLabel": "(CallExpression)",
           "options": "(MemberExpression)",
           "selected": "(MemberExpression)",
           "labelKey": "value",
@@ -1694,7 +1694,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/DefinitionsHeader.jsx",
           "start": {
-            "line": 100,
+            "line": 102,
             "column": 11
           }
         }
@@ -1896,7 +1896,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/notification_events/form/NotificationEventForm.jsx",
           "start": {
-            "line": 185,
+            "line": 191,
             "column": 15
           }
         }
@@ -1922,7 +1922,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/notification_events/form/NotificationEventForm.jsx",
           "start": {
-            "line": 195,
+            "line": 201,
             "column": 15
           }
         }
@@ -1948,7 +1948,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/notification_events/form/NotificationEventForm.jsx",
           "start": {
-            "line": 207,
+            "line": 213,
             "column": 15
           }
         }
@@ -2362,7 +2362,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/notification_events/form/NotificationEventForm.jsx",
           "start": {
-            "line": 224,
+            "line": 234,
             "column": 19
           }
         }
@@ -2387,7 +2387,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/notification_events/form/NotificationEventForm.jsx",
           "start": {
-            "line": 246,
+            "line": 258,
             "column": 19
           }
         }
@@ -2714,7 +2714,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/sales_invite_clients/PreviewFilesData.jsx",
           "start": {
-            "line": 185,
+            "line": 191,
             "column": 11
           }
         }
@@ -2732,7 +2732,43 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/sales_invite_clients/SingleClientInviteForm.jsx",
           "start": {
-            "line": 193,
+            "line": 171,
+            "column": 9
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "local": "FieldWrap",
+          "moduleName": "components/shared/icn_form/field_wrap/FieldWrap",
+          "importType": "ImportDefaultSpecifier"
+        },
+        "props": {
+          "size": "full_fluid"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/bpinto/Developer/icn/icn_react/src/components/sales_invite_clients/SingleClientInviteForm.jsx",
+          "start": {
+            "line": 180,
+            "column": 9
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "local": "FieldWrap",
+          "moduleName": "components/shared/icn_form/field_wrap/FieldWrap",
+          "importType": "ImportDefaultSpecifier"
+        },
+        "props": {
+          "size": "full_fluid"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/bpinto/Developer/icn/icn_react/src/components/sales_invite_clients/SingleClientInviteForm.jsx",
+          "start": {
+            "line": 189,
             "column": 9
           }
         }
@@ -2768,43 +2804,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/sales_invite_clients/SingleClientInviteForm.jsx",
           "start": {
-            "line": 211,
-            "column": 9
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "FieldWrap",
-          "moduleName": "components/shared/icn_form/field_wrap/FieldWrap",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "size": "full_fluid"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/components/sales_invite_clients/SingleClientInviteForm.jsx",
-          "start": {
-            "line": 224,
-            "column": 9
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "FieldWrap",
-          "moduleName": "components/shared/icn_form/field_wrap/FieldWrap",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "size": "full_fluid"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/components/sales_invite_clients/SingleClientInviteForm.jsx",
-          "start": {
-            "line": 249,
+            "line": 226,
             "column": 11
           }
         }
@@ -2822,25 +2822,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/sales_invite_clients/SingleClientInviteForm.jsx",
           "start": {
-            "line": 319,
-            "column": 11
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "FieldWrap",
-          "moduleName": "components/shared/icn_form/field_wrap/FieldWrap",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "size": "full_fluid"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/components/sales_invite_clients/SingleClientInviteForm.jsx",
-          "start": {
-            "line": 387,
+            "line": 273,
             "column": 11
           }
         }
@@ -6094,7 +6076,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/data_dashboard/data_syncs/DDModal.jsx",
           "start": {
-            "line": 277,
+            "line": 281,
             "column": 9
           }
         }
@@ -6351,8 +6333,8 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/data_sync/index/DataDashboardDataSyncIndex.jsx",
           "start": {
-            "line": 125,
-            "column": 5
+            "line": 128,
+            "column": 9
           }
         }
       },
@@ -6527,8 +6509,8 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/client_management/cell_renderers/letter_of_authorization_actions/ActionsCell.jsx",
           "start": {
-            "line": 12,
-            "column": 5
+            "line": 11,
+            "column": 10
           }
         }
       },
@@ -6579,13 +6561,14 @@
         "props": {
           "color": "text.light",
           "size": "large",
-          "items": "(ArrayExpression)"
+          "items": "(CallExpression)",
+          "style": "(ObjectExpression)"
         },
         "propsSpread": false,
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/subscription_review/sr_grid/sr_grid_redemptions/RedemptionDropdownBatchActionMenu.jsx",
           "start": {
-            "line": 27,
+            "line": 28,
             "column": 7
           }
         }
@@ -6644,10 +6627,10 @@
           "importType": "ImportDefaultSpecifier"
         },
         "props": {
-          "title": "Additional Subscription",
+          "title": "(CallExpression)",
           "primaryButtonText": "(ConditionalExpression)",
           "primaryButtonCallback": "(Identifier)",
-          "tertiaryButtonText": "Cancel",
+          "tertiaryButtonText": "(CallExpression)",
           "tertiaryButtonCallback": "(Identifier)",
           "onRequestClose": "(Identifier)",
           "isOpen": null,
@@ -6658,7 +6641,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/client_management/modals/additional_subscription/AdditionalSubscriptionModal.jsx",
           "start": {
-            "line": 110,
+            "line": 124,
             "column": 5
           }
         }
@@ -6762,7 +6745,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/client_management/modals/external_api_create_investment/modals/main/whiteLabelPartners/shared/signers/add_signer/AddSignerModal.jsx",
           "start": {
-            "line": 104,
+            "line": 133,
             "column": 5
           }
         }
@@ -7029,7 +7012,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/client_management/modals/send_documents_to_custodian/modals/custodians/pershing/index.jsx",
           "start": {
-            "line": 59,
+            "line": 66,
             "column": 5
           }
         }
@@ -7109,7 +7092,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/client_management/modals/send_subscription/SendSubscriptionModal.jsx",
           "start": {
-            "line": 191,
+            "line": 198,
             "column": 7
           }
         }
@@ -7331,6 +7314,29 @@
           "start": {
             "line": 38,
             "column": 5
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "local": "SupernovaBaseModal",
+          "moduleName": "components/shared/modals/SupernovaBaseModal/SupernovaBaseModal",
+          "importType": "ImportDefaultSpecifier"
+        },
+        "props": {
+          "isOpen": null,
+          "title": "Profile Updates",
+          "primaryButtonText": "Done",
+          "primaryButtonCallback": "(Identifier)",
+          "disablePrimary": "(CallExpression)",
+          "size": "sm"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/bpinto/Developer/icn/icn_react/src/components/shared/modals/ProfileUpdatesModal.jsx",
+          "start": {
+            "line": 112,
+            "column": 7
           }
         }
       },
@@ -8648,6 +8654,28 @@
           "importType": "ImportDefaultSpecifier"
         },
         "props": {
+          "isOpen": null,
+          "size": "sm",
+          "title": "Profile Updates",
+          "primaryButtonText": "DONE",
+          "primaryButtonCallback": "(Identifier)"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/new_investor_profile/components/modal/ProfilesToUpdateModal/ProfilesToUpdateModal.jsx",
+          "start": {
+            "line": 16,
+            "column": 5
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "local": "SupernovaBaseModal",
+          "moduleName": "components/shared/modals/SupernovaBaseModal/SupernovaBaseModal",
+          "importType": "ImportDefaultSpecifier"
+        },
+        "props": {
           "title": "Send for GP Countersignature",
           "primaryButtonText": "Send",
           "primaryButtonCallback": "(Identifier)",
@@ -8945,7 +8973,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/modules/investments/shared/document_box/modals/EsignModal.jsx",
           "start": {
-            "line": 218,
+            "line": 216,
             "column": 5
           }
         }
@@ -10746,8 +10774,8 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/modules/investments/shared/document_box/components/SectionTransferDoc.jsx",
           "start": {
-            "line": 56,
-            "column": 9
+            "line": 42,
+            "column": 7
           }
         }
       },
@@ -10967,7 +10995,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/data_dashboard/data_syncs/DDModal.jsx",
           "start": {
-            "line": 185,
+            "line": 187,
             "column": 11
           }
         }
@@ -11981,7 +12009,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/data_dashboard/data_syncs/DDModal.jsx",
           "start": {
-            "line": 206,
+            "line": 208,
             "column": 9
           }
         }
@@ -12731,8 +12759,8 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/modules/investments/shared/document_box/DocumentUploadBox.jsx",
           "start": {
-            "line": 157,
-            "column": 15
+            "line": 131,
+            "column": 17
           }
         }
       },
@@ -13795,28 +13823,6 @@
             "column": 7
           }
         }
-      },
-      {
-        "importInfo": {
-          "local": "IcnActionModal",
-          "moduleName": "components/shared/icn_modals/icn_action_modal/IcnActionModal",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "isOpen": null,
-          "size": "md",
-          "title": "Profile Updates",
-          "primaryButtonText": "DONE",
-          "primaryButtonCallback": "(ArrowFunctionExpression)"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/new_investor_profile/components/modal/ProfilesToUpdateModal/ProfilesToUpdateModal.jsx",
-          "start": {
-            "line": 13,
-            "column": 5
-          }
-        }
       }
     ]
   },
@@ -13883,7 +13889,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/DefinitionsHeader.jsx",
           "start": {
-            "line": 27,
+            "line": 29,
             "column": 7
           }
         }
@@ -13901,7 +13907,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/DefinitionsHeader.jsx",
           "start": {
-            "line": 96,
+            "line": 98,
             "column": 7
           }
         }
@@ -14230,7 +14236,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/DefinitionsHeader.jsx",
           "start": {
-            "line": 28,
+            "line": 30,
             "column": 9
           }
         }
@@ -14249,7 +14255,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/DefinitionsHeader.jsx",
           "start": {
-            "line": 40,
+            "line": 42,
             "column": 9
           }
         }
@@ -14268,7 +14274,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/DefinitionsHeader.jsx",
           "start": {
-            "line": 52,
+            "line": 54,
             "column": 9
           }
         }
@@ -14287,7 +14293,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/DefinitionsHeader.jsx",
           "start": {
-            "line": 64,
+            "line": 66,
             "column": 9
           }
         }
@@ -14306,7 +14312,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/DefinitionsHeader.jsx",
           "start": {
-            "line": 76,
+            "line": 78,
             "column": 9
           }
         }
@@ -14324,7 +14330,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/DefinitionsHeader.jsx",
           "start": {
-            "line": 88,
+            "line": 90,
             "column": 9
           }
         }
@@ -14343,7 +14349,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/DefinitionsHeader.jsx",
           "start": {
-            "line": 99,
+            "line": 101,
             "column": 9
           }
         }
@@ -14784,7 +14790,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/manage_document_definition/DocumentTemplate.jsx",
           "start": {
-            "line": 98,
+            "line": 100,
             "column": 5
           }
         }
@@ -14800,7 +14806,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/manage_document_definition/DocumentTemplate.jsx",
           "start": {
-            "line": 166,
+            "line": 168,
             "column": 9
           }
         }
@@ -14818,7 +14824,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/manage_document_definition/DocumentTemplates.jsx",
           "start": {
-            "line": 103,
+            "line": 105,
             "column": 17
           }
         }
@@ -14834,74 +14840,8 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/manage_document_definition/DocumentTemplates.jsx",
           "start": {
-            "line": 116,
+            "line": 118,
             "column": 15
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Row",
-          "moduleName": "components/shared/icn_components/IcnRow",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {},
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/manage_document_definition/FinancialAdvisorSignature.jsx",
-          "start": {
-            "line": 33,
-            "column": 5
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Row",
-          "moduleName": "components/shared/icn_components/IcnRow",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "sx": "(ObjectExpression)"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/manage_document_definition/FinancialAdvisorSignature.jsx",
-          "start": {
-            "line": 48,
-            "column": 11
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Row",
-          "moduleName": "components/shared/icn_components/IcnRow",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {},
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/manage_document_definition/WorkflowToggles.jsx",
-          "start": {
-            "line": 102,
-            "column": 23
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Row",
-          "moduleName": "components/shared/icn_components/IcnRow",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {},
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/manage_document_definition/WorkflowToggles.jsx",
-          "start": {
-            "line": 124,
-            "column": 21
           }
         }
       }
@@ -14923,7 +14863,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/manage_document_definition/DocumentTemplate.jsx",
           "start": {
-            "line": 99,
+            "line": 101,
             "column": 7
           }
         }
@@ -14942,7 +14882,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/manage_document_definition/DocumentTemplate.jsx",
           "start": {
-            "line": 145,
+            "line": 147,
             "column": 7
           }
         }
@@ -14960,7 +14900,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/manage_document_definition/DocumentTemplate.jsx",
           "start": {
-            "line": 165,
+            "line": 167,
             "column": 7
           }
         }
@@ -14979,7 +14919,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/manage_document_definition/DocumentTemplate.jsx",
           "start": {
-            "line": 167,
+            "line": 169,
             "column": 11
           }
         }
@@ -14997,7 +14937,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/manage_document_definition/DocumentTemplate.jsx",
           "start": {
-            "line": 193,
+            "line": 195,
             "column": 11
           }
         }
@@ -15016,7 +14956,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/manage_document_definition/DocumentTemplate.jsx",
           "start": {
-            "line": 248,
+            "line": 250,
             "column": 7
           }
         }
@@ -15030,44 +14970,6 @@
         "props": {
           "className": "d-none d-md-block",
           "md": 4
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/manage_document_definition/DocumentTemplates.jsx",
-          "start": {
-            "line": 104,
-            "column": 19
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Col",
-          "moduleName": "components/shared/icn_components/IcnCol",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "className": "d-none d-md-block",
-          "md": 1
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/manage_document_definition/DocumentTemplates.jsx",
-          "start": {
-            "line": 105,
-            "column": 19
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Col",
-          "moduleName": "components/shared/icn_components/IcnCol",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "className": "d-none d-md-block",
-          "md": 6
         },
         "propsSpread": false,
         "location": {
@@ -15103,97 +15005,51 @@
           "moduleName": "components/shared/icn_components/IcnCol",
           "importType": "ImportDefaultSpecifier"
         },
+        "props": {
+          "className": "d-none d-md-block",
+          "md": 6
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/manage_document_definition/DocumentTemplates.jsx",
+          "start": {
+            "line": 108,
+            "column": 19
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "local": "Col",
+          "moduleName": "components/shared/icn_components/IcnCol",
+          "importType": "ImportDefaultSpecifier"
+        },
+        "props": {
+          "className": "d-none d-md-block",
+          "md": 1
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/manage_document_definition/DocumentTemplates.jsx",
+          "start": {
+            "line": 109,
+            "column": 19
+          }
+        }
+      },
+      {
+        "importInfo": {
+          "local": "Col",
+          "moduleName": "components/shared/icn_components/IcnCol",
+          "importType": "ImportDefaultSpecifier"
+        },
         "props": {},
         "propsSpread": false,
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/manage_document_definition/DocumentTemplates.jsx",
           "start": {
-            "line": 117,
+            "line": 119,
             "column": 17
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Col",
-          "moduleName": "components/shared/icn_components/IcnCol",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {},
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/manage_document_definition/FinancialAdvisorSignature.jsx",
-          "start": {
-            "line": 34,
-            "column": 7
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Col",
-          "moduleName": "components/shared/icn_components/IcnCol",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "style": "(ObjectExpression)"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/manage_document_definition/FinancialAdvisorSignature.jsx",
-          "start": {
-            "line": 49,
-            "column": 13
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Col",
-          "moduleName": "components/shared/icn_components/IcnCol",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "data-test-id": "financial-advisor-signature-order-select"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/manage_document_definition/FinancialAdvisorSignature.jsx",
-          "start": {
-            "line": 50,
-            "column": 13
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Col",
-          "moduleName": "components/shared/icn_components/IcnCol",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {},
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/manage_document_definition/WorkflowToggles.jsx",
-          "start": {
-            "line": 103,
-            "column": 25
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Col",
-          "moduleName": "components/shared/icn_components/IcnCol",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {},
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/manage_document_definition/WorkflowToggles.jsx",
-          "start": {
-            "line": 125,
-            "column": 23
           }
         }
       }
@@ -15215,7 +15071,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/manage_document_definition/DocumentTemplates.jsx",
           "start": {
-            "line": 96,
+            "line": 98,
             "column": 15
           }
         }
@@ -15234,7 +15090,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/manage_document_definition/DocumentTemplates.jsx",
           "start": {
-            "line": 97,
+            "line": 99,
             "column": 15
           }
         }
@@ -15253,7 +15109,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/manage_document_definition/DocumentTemplates.jsx",
           "start": {
-            "line": 98,
+            "line": 100,
             "column": 15
           }
         }
@@ -15435,7 +15291,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/manage_document_definition/DocumentTemplates.jsx",
           "start": {
-            "line": 125,
+            "line": 127,
             "column": 23
           }
         }
@@ -15492,7 +15348,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/modules/bulk_investment/pages/documents/drawers/prepare_documents/DraggableDocumentSigners.jsx",
           "start": {
-            "line": 98,
+            "line": 94,
             "column": 10
           }
         }
@@ -15510,15 +15366,15 @@
         "props": {
           "isOpen": "(MemberExpression)",
           "title": "(MemberExpression)",
-          "bodyText": "Definition deleted successfully",
+          "bodyText": "(CallExpression)",
           "onRequestClose": "(MemberExpression)"
         },
         "propsSpread": false,
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/document_definitions/remove_document_modal/ConfirmDocumentRemovalModal.jsx",
           "start": {
-            "line": 6,
-            "column": 3
+            "line": 10,
+            "column": 5
           }
         }
       }
@@ -19811,7 +19667,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/subscription_review/entry/entry.jsx",
           "start": {
-            "line": 207,
+            "line": 220,
             "column": 7
           }
         }
@@ -19862,7 +19718,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/modules/configuration_master/containers/configuration/entry.jsx",
           "start": {
-            "line": 213,
+            "line": 211,
             "column": 11
           }
         }
@@ -19896,7 +19752,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/modules/investments/view_documents/ViewDocumentsPage.jsx",
           "start": {
-            "line": 250,
+            "line": 248,
             "column": 7
           }
         }
@@ -19980,28 +19836,6 @@
           "start": {
             "line": 44,
             "column": 7
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "IcnModal",
-          "moduleName": "components/shared/modals/IcnModal",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "header": "Profile Updates",
-          "body": "(Identifier)",
-          "modalOpen": null,
-          "buttons": "(Identifier)",
-          "size": "md"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/components/shared/modals/ProfileUpdatesModal.jsx",
-          "start": {
-            "line": 123,
-            "column": 9
           }
         }
       }
@@ -20346,8 +20180,8 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/sales_detail/view_invite_history/vih_table/PafsTooltipCellRenderer.jsx",
           "start": {
-            "line": 25,
-            "column": 9
+            "line": 23,
+            "column": 11
           }
         }
       },
@@ -24640,22 +24474,6 @@
         "props": {},
         "propsSpread": false,
         "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/DataDashboard.jsx",
-          "start": {
-            "line": 100,
-            "column": 7
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "LayoutContainer",
-          "moduleName": "components/shared/layout_global/LayoutContainer",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {},
-        "propsSpread": false,
-        "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_reconciliation/DataReconciliationIndex.jsx",
           "start": {
             "line": 66,
@@ -25556,22 +25374,6 @@
           "moduleName": "components/shared/layout_global/LayoutContainer",
           "importType": "ImportDefaultSpecifier"
         },
-        "props": {},
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/sales_detail/entry/SalesDetailEntry.jsx",
-          "start": {
-            "line": 200,
-            "column": 9
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "LayoutContainer",
-          "moduleName": "components/shared/layout_global/LayoutContainer",
-          "importType": "ImportDefaultSpecifier"
-        },
         "props": {
           "fullWidth": null,
           "className": "(MemberExpression)"
@@ -25614,7 +25416,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/subscription_review/entry/entry.jsx",
           "start": {
-            "line": 179,
+            "line": 192,
             "column": 5
           }
         }
@@ -26744,7 +26546,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/subscription_review/sr_grid/sr_grid_redemptions/SRGridRedemptions.jsx",
           "start": {
-            "line": 43,
+            "line": 51,
             "column": 9
           }
         }
@@ -29486,8 +29288,8 @@
           "importType": "ImportSpecifier"
         },
         "props": {
-          "open": "(MemberExpression)",
-          "onClose": "(MemberExpression)",
+          "open": "(Identifier)",
+          "onClose": "(Identifier)",
           "needAssistanceOverride": "(MemberExpression)",
           "whiteLabelPartnerId": "(MemberExpression)"
         },
@@ -29495,7 +29297,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/icn_header/icnHeader.jsx",
           "start": {
-            "line": 309,
+            "line": 284,
             "column": 15
           }
         }
@@ -30024,7 +29826,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/investor_profile/investor_profile_main_container/InvestorProfileMainContainer.jsx",
           "start": {
-            "line": 347,
+            "line": 348,
             "column": 11
           }
         }
@@ -31119,7 +30921,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/subscription_review/entry/entry.jsx",
           "start": {
-            "line": 205,
+            "line": 218,
             "column": 9
           }
         }
@@ -32612,33 +32414,6 @@
       }
     ]
   },
-  "IcnBlockCardWithBadge": {
-    "instances": [
-      {
-        "importInfo": {
-          "local": "IcnBlockCardWithBadge",
-          "moduleName": "components/shared/icn_block_card_with_badge/IcnBlockCardWithBadge",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "title": "(Identifier)",
-          "className": "(CallExpression)",
-          "href": "(TemplateLiteral)",
-          "description": "(Identifier)",
-          "newCount": "(Identifier)",
-          "onClick": "(Identifier)"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/modules/investment_opportunity/components/ExploreInvestmentOpportunities/InvestmentCollection.jsx",
-          "start": {
-            "line": 38,
-            "column": 5
-          }
-        }
-      }
-    ]
-  },
   "IcnBaseModal": {
     "instances": [
       {
@@ -32819,7 +32594,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/modules/landing_page/components/announcement/AnnouncementsScroller.jsx",
           "start": {
-            "line": 74,
+            "line": 67,
             "column": 7
           }
         }
@@ -32837,6 +32612,28 @@
           "start": {
             "line": 88,
             "column": 7
+          }
+        }
+      }
+    ]
+  },
+  "Spinner": {
+    "instances": [
+      {
+        "importInfo": {
+          "local": "Spinner",
+          "moduleName": "components/shared/icn_spinner/SupernovaIcnSpinner",
+          "importType": "ImportDefaultSpecifier"
+        },
+        "props": {
+          "isLoading": "(Identifier)"
+        },
+        "propsSpread": false,
+        "location": {
+          "file": "/Users/bpinto/Developer/icn/icn_react/src/modules/landing_page/components/announcement/notification/PreviewAndSend.jsx",
+          "start": {
+            "line": 50,
+            "column": 9
           }
         }
       }

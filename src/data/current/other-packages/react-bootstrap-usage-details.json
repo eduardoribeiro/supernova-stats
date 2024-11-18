@@ -184,8 +184,8 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/icn_header/icnHeader.jsx",
           "start": {
-            "line": 561,
-            "column": 25
+            "line": 504,
+            "column": 23
           }
         }
       },
@@ -429,8 +429,8 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/icn_header/icnHeader.jsx",
           "start": {
-            "line": 557,
-            "column": 21
+            "line": 500,
+            "column": 19
           }
         }
       },
@@ -552,70 +552,6 @@
           "moduleName": "react-bootstrap/Row",
           "importType": "ImportDefaultSpecifier"
         },
-        "props": {},
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/components/notification_events/form/NotificationEventForm.jsx",
-          "start": {
-            "line": 183,
-            "column": 11
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Row",
-          "moduleName": "react-bootstrap/Row",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {},
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/components/notification_events/form/NotificationEventForm.jsx",
-          "start": {
-            "line": 222,
-            "column": 15
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Row",
-          "moduleName": "react-bootstrap/Row",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {},
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/components/notification_events/form/NotificationEventForm.jsx",
-          "start": {
-            "line": 244,
-            "column": 15
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Row",
-          "moduleName": "react-bootstrap/Row",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {},
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/components/notification_events/form/NotificationEventForm.jsx",
-          "start": {
-            "line": 268,
-            "column": 11
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Row",
-          "moduleName": "react-bootstrap/Row",
-          "importType": "ImportDefaultSpecifier"
-        },
         "props": {
           "className": "(CallExpression)"
         },
@@ -674,235 +610,6 @@
           "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/admin_search/as_full_results/Entry.jsx",
           "start": {
             "line": 82,
-            "column": 9
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Row",
-          "moduleName": "react-bootstrap/Row",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {},
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/DataDashboard.jsx",
-          "start": {
-            "line": 101,
-            "column": 9
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Row",
-          "moduleName": "react-bootstrap/Row",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {},
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/DataDashboard.jsx",
-          "start": {
-            "line": 115,
-            "column": 11
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Row",
-          "moduleName": "react-bootstrap/Row",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "key": 1
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/data_sync/DataDashboardDataSync.jsx",
-          "start": {
-            "line": 95,
-            "column": 5
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Row",
-          "moduleName": "react-bootstrap/Row",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "key": 2,
-          "style": "(ObjectExpression)"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/data_sync/DataDashboardDataSync.jsx",
-          "start": {
-            "line": 104,
-            "column": 5
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Row",
-          "moduleName": "react-bootstrap/Row",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "key": 1,
-          "style": "(ObjectExpression)"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/data_sync/index/DataDashboardDataSyncIndex.jsx",
-          "start": {
-            "line": 94,
-            "column": 5
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Row",
-          "moduleName": "react-bootstrap/Row",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "key": 2
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/data_sync/index/DataDashboardDataSyncIndex.jsx",
-          "start": {
-            "line": 114,
-            "column": 5
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Row",
-          "moduleName": "react-bootstrap/Row",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "key": 1
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/data_sync/report/DataDashboardFileReport.jsx",
-          "start": {
-            "line": 107,
-            "column": 5
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Row",
-          "moduleName": "react-bootstrap/Row",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "key": 2
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/data_sync/report/DataDashboardFileReport.jsx",
-          "start": {
-            "line": 115,
-            "column": 5
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Row",
-          "moduleName": "react-bootstrap/Row",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "key": 3
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/data_sync/report/DataDashboardFileReport.jsx",
-          "start": {
-            "line": 120,
-            "column": 5
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Row",
-          "moduleName": "react-bootstrap/Row",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "key": 4
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/data_sync/report/DataDashboardFileReport.jsx",
-          "start": {
-            "line": 135,
-            "column": 5
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Row",
-          "moduleName": "react-bootstrap/Row",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "key": 1,
-          "style": "(ObjectExpression)"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/schema/DDSchema.jsx",
-          "start": {
-            "line": 243,
-            "column": 5
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Row",
-          "moduleName": "react-bootstrap/Row",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {},
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/schema/DDSchema.jsx",
-          "start": {
-            "line": 250,
-            "column": 5
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Row",
-          "moduleName": "react-bootstrap/Row",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {},
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/schema/DDSchema.jsx",
-          "start": {
-            "line": 255,
             "column": 9
           }
         }
@@ -1088,102 +795,6 @@
         "props": {},
         "propsSpread": false,
         "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/sales_detail/entry/SalesDetailEntry.jsx",
-          "start": {
-            "line": 203,
-            "column": 15
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Row",
-          "moduleName": "react-bootstrap/Row",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {},
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/sales_detail/entry/SalesDetailEntry.jsx",
-          "start": {
-            "line": 233,
-            "column": 17
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Row",
-          "moduleName": "react-bootstrap/Row",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {},
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/sales_detail/entry/SalesDetailEntry.jsx",
-          "start": {
-            "line": 245,
-            "column": 19
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Row",
-          "moduleName": "react-bootstrap/Row",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {},
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/sales_detail/entry/SalesDetailEntry.jsx",
-          "start": {
-            "line": 255,
-            "column": 19
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Row",
-          "moduleName": "react-bootstrap/Row",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {},
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/sales_detail/view_invite_history/ViewInviteHistory.jsx",
-          "start": {
-            "line": 105,
-            "column": 9
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Row",
-          "moduleName": "react-bootstrap/Row",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {},
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/sales_detail/view_invite_history/ViewInviteHistory.jsx",
-          "start": {
-            "line": 149,
-            "column": 11
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Row",
-          "moduleName": "react-bootstrap/Row",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {},
-        "propsSpread": false,
-        "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/subscription_reviewer/entry/subscriptionReviewerEntry.jsx",
           "start": {
             "line": 174,
@@ -1275,132 +886,6 @@
           "importType": "ImportDefaultSpecifier"
         },
         "props": {
-          "md": 5
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/components/notification_events/form/NotificationEventForm.jsx",
-          "start": {
-            "line": 184,
-            "column": 13
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Col",
-          "moduleName": "react-bootstrap/Col",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "md": 7
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/components/notification_events/form/NotificationEventForm.jsx",
-          "start": {
-            "line": 219,
-            "column": 13
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Col",
-          "moduleName": "react-bootstrap/Col",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "md": 5
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/components/notification_events/form/NotificationEventForm.jsx",
-          "start": {
-            "line": 223,
-            "column": 17
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Col",
-          "moduleName": "react-bootstrap/Col",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "md": 7
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/components/notification_events/form/NotificationEventForm.jsx",
-          "start": {
-            "line": 235,
-            "column": 17
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Col",
-          "moduleName": "react-bootstrap/Col",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "md": 5
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/components/notification_events/form/NotificationEventForm.jsx",
-          "start": {
-            "line": 245,
-            "column": 17
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Col",
-          "moduleName": "react-bootstrap/Col",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "md": 7
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/components/notification_events/form/NotificationEventForm.jsx",
-          "start": {
-            "line": 257,
-            "column": 17
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Col",
-          "moduleName": "react-bootstrap/Col",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "sm": 12
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/components/notification_events/form/NotificationEventForm.jsx",
-          "start": {
-            "line": 269,
-            "column": 13
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Col",
-          "moduleName": "react-bootstrap/Col",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
           "className": "(CallExpression)"
         },
         "propsSpread": true,
@@ -1445,247 +930,6 @@
           "start": {
             "line": 87,
             "column": 13
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Col",
-          "moduleName": "react-bootstrap/Col",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "sm": 12,
-          "style": "(ObjectExpression)"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/DataDashboard.jsx",
-          "start": {
-            "line": 102,
-            "column": 13
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Col",
-          "moduleName": "react-bootstrap/Col",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "sm": 12,
-          "style": "(ObjectExpression)"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/DataDashboard.jsx",
-          "start": {
-            "line": 116,
-            "column": 13
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Col",
-          "moduleName": "react-bootstrap/Col",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "md": 12,
-          "style": "(ObjectExpression)"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/data_sync/DataDashboardDataSync.jsx",
-          "start": {
-            "line": 96,
-            "column": 7
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Col",
-          "moduleName": "react-bootstrap/Col",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "md": 12
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/data_sync/DataDashboardDataSync.jsx",
-          "start": {
-            "line": 105,
-            "column": 7
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Col",
-          "moduleName": "react-bootstrap/Col",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "md": 12
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/data_sync/index/DataDashboardDataSyncIndex.jsx",
-          "start": {
-            "line": 95,
-            "column": 7
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Col",
-          "moduleName": "react-bootstrap/Col",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "md": 12
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/data_sync/index/DataDashboardDataSyncIndex.jsx",
-          "start": {
-            "line": 115,
-            "column": 7
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Col",
-          "moduleName": "react-bootstrap/Col",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "md": 12,
-          "style": "(ObjectExpression)"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/data_sync/report/DataDashboardFileReport.jsx",
-          "start": {
-            "line": 108,
-            "column": 7
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Col",
-          "moduleName": "react-bootstrap/Col",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "md": 12,
-          "style": "(ObjectExpression)"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/data_sync/report/DataDashboardFileReport.jsx",
-          "start": {
-            "line": 116,
-            "column": 7
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Col",
-          "moduleName": "react-bootstrap/Col",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "md": 12,
-          "style": "(ObjectExpression)"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/data_sync/report/DataDashboardFileReport.jsx",
-          "start": {
-            "line": 121,
-            "column": 7
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Col",
-          "moduleName": "react-bootstrap/Col",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "md": 12,
-          "style": "(ObjectExpression)"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/data_sync/report/DataDashboardFileReport.jsx",
-          "start": {
-            "line": 136,
-            "column": 7
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Col",
-          "moduleName": "react-bootstrap/Col",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "md": 12
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/schema/DDSchema.jsx",
-          "start": {
-            "line": 244,
-            "column": 7
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Col",
-          "moduleName": "react-bootstrap/Col",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "md": 12
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/schema/DDSchema.jsx",
-          "start": {
-            "line": 251,
-            "column": 7
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Col",
-          "moduleName": "react-bootstrap/Col",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "md": 12
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/schema/DDSchema.jsx",
-          "start": {
-            "line": 256,
-            "column": 11
           }
         }
       },
@@ -1759,114 +1003,6 @@
           "start": {
             "line": 136,
             "column": 11
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Col",
-          "moduleName": "react-bootstrap/Col",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "md": 12
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/sales_detail/entry/SalesDetailEntry.jsx",
-          "start": {
-            "line": 204,
-            "column": 17
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Col",
-          "moduleName": "react-bootstrap/Col",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "md": 12
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/sales_detail/entry/SalesDetailEntry.jsx",
-          "start": {
-            "line": 234,
-            "column": 19
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Col",
-          "moduleName": "react-bootstrap/Col",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "md": 12
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/sales_detail/entry/SalesDetailEntry.jsx",
-          "start": {
-            "line": 246,
-            "column": 21
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Col",
-          "moduleName": "react-bootstrap/Col",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "md": 12
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/sales_detail/entry/SalesDetailEntry.jsx",
-          "start": {
-            "line": 256,
-            "column": 21
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Col",
-          "moduleName": "react-bootstrap/Col",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "md": 12
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/sales_detail/view_invite_history/ViewInviteHistory.jsx",
-          "start": {
-            "line": 106,
-            "column": 11
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Col",
-          "moduleName": "react-bootstrap/Col",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "md": 12
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/sales_detail/view_invite_history/ViewInviteHistory.jsx",
-          "start": {
-            "line": 150,
-            "column": 13
           }
         }
       }
@@ -2057,27 +1193,6 @@
           "file": "/Users/bpinto/Developer/icn/icn_react/src/components/data_dashboard/data_syncs/DataSyncList.jsx",
           "start": {
             "line": 21,
-            "column": 7
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "imported": "Badge",
-          "local": "Badge",
-          "moduleName": "react-bootstrap",
-          "importType": "ImportSpecifier"
-        },
-        "props": {
-          "pill": null,
-          "className": "(Identifier)",
-          "style": "(Identifier)"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/components/shared/icn_block_card_with_badge/IcnBlockCardWithBadge/IcnBlockCardWithBadge.jsx",
-          "start": {
-            "line": 57,
             "column": 7
           }
         }
@@ -2680,24 +1795,6 @@
           "importType": "ImportDefaultSpecifier"
         },
         "props": {
-          "className": "(MemberExpression)"
-        },
-        "propsSpread": false,
-        "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/components/notification_events/form/NotificationEventForm.jsx",
-          "start": {
-            "line": 182,
-            "column": 9
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Container",
-          "moduleName": "react-bootstrap/Container",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
           "className": "(CallExpression)"
         },
         "propsSpread": true,
@@ -2843,24 +1940,6 @@
         },
         "propsSpread": false,
         "location": {
-          "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/sales_detail/entry/SalesDetailEntry.jsx",
-          "start": {
-            "line": 202,
-            "column": 13
-          }
-        }
-      },
-      {
-        "importInfo": {
-          "local": "Container",
-          "moduleName": "react-bootstrap/Container",
-          "importType": "ImportDefaultSpecifier"
-        },
-        "props": {
-          "fluid": null
-        },
-        "propsSpread": false,
-        "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/subscription_reviewer/entry/subscriptionReviewerEntry.jsx",
           "start": {
             "line": 173,
@@ -2885,7 +1964,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/schema/DDSchema.jsx",
           "start": {
-            "line": 128,
+            "line": 124,
             "column": 13
           }
         }
@@ -2907,7 +1986,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/schema/DDSchema.jsx",
           "start": {
-            "line": 129,
+            "line": 125,
             "column": 15
           }
         }
@@ -2929,7 +2008,7 @@
             "location": {
               "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/schema/DDSchema.jsx",
               "start": {
-                "line": 143,
+                "line": 139,
                 "column": 19
               }
             }
@@ -2956,7 +2035,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/schema/DDSchema.jsx",
           "start": {
-            "line": 130,
+            "line": 126,
             "column": 17
           }
         }
@@ -2978,7 +2057,7 @@
         "location": {
           "file": "/Users/bpinto/Developer/icn/icn_react/src/containers/data_dashboard/schema/DDSchema.jsx",
           "start": {
-            "line": 142,
+            "line": 138,
             "column": 17
           }
         }
