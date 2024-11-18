@@ -12,7 +12,19 @@ const statsApi = async () => {
   const app = fastify();
 
   app.get('/', (req, reply) => {
-    reply.send('change me to see updates, fastify!~~');
+    reply.send('Supernova Stats ~~');
+  });
+
+  // GET all projects
+  app.get('/projects', (req, res) => {
+    db.all('SELECT * FROM projects', (err, rows) => {
+      if (err) {
+        console.error(err.message);
+        res.status(500).send('Internal server error');
+      } else {
+        res.send(rows);
+      }
+    });
   });
 
   // GET all products
@@ -27,10 +39,37 @@ const statsApi = async () => {
     });
   });
 
+  // GET all products
+  app.get('/components', (req, res) => {
+    db.all('SELECT * FROM components', (err, rows) => {
+      if (err) {
+        console.error(err.message);
+        res.status(500).send('Internal server error');
+      } else {
+        res.send(rows);
+      }
+    });
+  });
+
   // GET single product by ID
-  app.get('/packages/:id', (req, res) => {
+  app.get('/projects/:id', (req, res) => {
     const { id } = req.params;
-    db.get('SELECT * FROM packages WHERE id = ?', [id], (err, row) => {
+    db.get('SELECT * FROM projects WHERE id = ?', [id], (err, row) => {
+      if (err) {
+        console.error(err.message);
+        res.status(500).send('Internal server error');
+      } else if (!row) {
+        res.status(404).send('Product not found');
+      } else {
+        res.send(row);
+      }
+    });
+  });
+
+  // GET single product by ID
+  app.get('/packages/:projectId/:id', (req, res) => {
+    const { projectId, id } = req.params;
+    db.get('SELECT * FROM packages WHERE projectId = ? and id = ?', [projectId, id], (err, row) => {
       if (err) {
         console.error(err.message);
         res.status(500).send('Internal server error');
@@ -44,18 +83,18 @@ const statsApi = async () => {
 
   // POST new product
   app.post('/packages', (req, res) => {
-    const { name, price } = req.body;
-    if (!name || !price) {
+    const { projectId, name, price } = req.body;
+    if (!name || !price || !projectId) {
       res.status(400).send('Name and price are required');
     } else {
-      const sql = 'INSERT INTO packages(name) VALUES (?, ?)';
-      db.run(sql, [name, price], function (err) {
+      const sql = 'INSERT INTO packages(name) VALUES (?, ?, ?)';
+      db.run(sql, [projectId, name, price], function (err) {
         if (err) {
           console.error(err.message);
           res.status(500).send('Internal server error');
         } else {
           const id = this.lastID;
-          res.status(201).send({ id, name, price });
+          res.status(201).send({ id, projectId, name, price });
         }
       });
     }
