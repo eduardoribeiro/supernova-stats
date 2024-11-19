@@ -1,4 +1,4 @@
-import fastify from 'fastify';
+import express from 'express';
 import sqlite3 from 'sqlite3';
 
 const db = new sqlite3.Database('./db/stats.db', (err) => {
@@ -9,7 +9,7 @@ const db = new sqlite3.Database('./db/stats.db', (err) => {
 });
 
 const statsApi = async () => {
-  const app = fastify();
+  const app = express();
 
   app.get('/', (req, reply) => {
     reply.send('Supernova Stats ~~');
@@ -100,6 +100,51 @@ const statsApi = async () => {
     }
   });
 
+  // POST new stats
+  app.post('/stats/:projectName/:packageName', (req, res) => {
+    const { data } = req.body;
+    const { projectName, packageName } = req.params;
+    if (!projectName || !packageName) {
+      res.status(400).send('Project ID and Package ID are required are required');
+    } else {
+      const projectId = db.run('SELECT id FROM projects WHERE name = ?', [projectName], (err) => {
+        if (err) {
+          console.log(err.message);
+          res.status(500).send('Internal Server Error');
+        } else {
+          const id = this.id;
+          res.status(201).send({ id });
+        };
+      });
+      const packageId = db.run('SELECT id FROM package WHERE name = ?', [packageName], (err) => {
+        if (err) {
+          console.log(err.message);
+          res.status(500).send('Internal Server Error');
+        } else {
+          const id = this.id;
+          res.status(201).send({ id });
+        };
+      });
+      console.log(packageId);
+      console.log(projectId);
+      const sql = 'INSERT INTO components(name) VALUES (?, ?, ?)';
+      data.forEach(component => {
+        const componentName = Object.keys(component);
+        const componentAmount = Object.values(component);
+        const date = new Date();
+        db.run(sql, [packageId, projectId, componentName, componentAmount, date], function (err) {
+          if (err) {
+            console.error(err.message);
+            res.status(500).send('Internal server error');
+          } else {
+            const id = this.lastID;
+            res.status(201).send({ id, projectId, packageId, componentName, componentAmount, date });
+          }
+        });
+      });
+    }
+  });
+
   // PUT update product by ID
   app.put('/packages/:id', (req, res) => {
     const { id } = req.params;
@@ -136,7 +181,13 @@ const statsApi = async () => {
     });
   });
 
-  app.listen(4001, () => { console.log('Server listen on port 4001') });
+  app.listen(4001, (err) => {
+    if (err) {
+      console.log(err);
+    } else {
+      console.log(`Server running, navigate to  https://localhost:4001`)
+    }
+  });
 
   return app;
 };

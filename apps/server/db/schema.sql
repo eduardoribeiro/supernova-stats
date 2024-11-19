@@ -3,11 +3,22 @@ CREATE TABLE projects (
   name TEXT NOT NULL
 );
 
+INSERT INTO projects (name)
+VALUES ('ICN'),
+       ('SI'),
+       ('Annuitties'),
+       ('GDM');
+
 CREATE TABLE packages (
   id INTEGER PRIMARY KEY,
   name TEXT NOT NULL
 );
 
+INSERT INTO packages (name)
+VALUES ('Supernova'),
+       ('RCL'),
+       ('Shared'),
+       ('React Bootstrap');
 
 CREATE TABLE packagesInProjects (
   id INTEGER PRIMARY KEY,
@@ -20,10 +31,12 @@ CREATE TABLE packagesInProjects (
 CREATE TABLE components (
   id INTEGER PRIMARY KEY,
   packageId INTEGER NOT NULL,
+  projectId INTEGER NOT NULL,
   name TEXT NOT NULL,
   amount NUMBER NOT NULL,
   date CURRENT_DATE NOT NULL,
-  FOREIGN KEY(packageId) REFERENCES packages(id)
+  FOREIGN KEY(packageId) REFERENCES packages(id),
+  FOREIGN KEY(projectId) REFERENCES projects(id)
 );
 
 CREATE TABLE usage (

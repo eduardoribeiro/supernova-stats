@@ -1,0 +1,19 @@
+{
+  "folders": [
+    {
+      "path": "./",
+      "name": "supernova-stats",
+    },
+    {
+      "path": "./apps/server",
+      "name": "backend",
+    },
+    {
+      "path": "./apps/web",
+      "name": "frontend",
+    },
+  ],
+  "settings": {
+    "jest.disabledWorkspaceFolders": ["supernova-stats"],
+  },
+}
