@@ -187,7 +187,6 @@ const useDashboard = () => {
 
   const getSharedDepedency = (file: string, isSubComponent: boolean) => {
     const occurrences: InstancedDataItem = { instances: [] };
-    console.log(file);
 
     Object.keys(DetailData[dataset]).forEach(detail => {
       const innerDetail = DetailData[dataset][detail];
@@ -208,6 +207,10 @@ const useDashboard = () => {
   const getComponentData: (componentName: string) => CountedDataItem[] | undefined = (componentName) => {
     if(actualView === '') return;
     const JsonData = DetailData[dataset][actualView];
+    if (componentName.split('.').length > 1) {
+      const splitName = componentName.split('.');
+      return aggregateData(JsonData[splitName[0]]?.components[splitName[1]]?.instances);
+    }
     return aggregateData(JsonData[componentName]?.instances);
   };
 

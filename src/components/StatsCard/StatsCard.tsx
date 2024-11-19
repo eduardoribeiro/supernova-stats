@@ -47,6 +47,12 @@ const StatsCard: StatsCardComponent = ({ totals, title, handleClick }) => (
                   label={name}
                   value={`${total}`}
                   detail="ICN source code"
+                  sx={(theme) => ({
+                    padding: theme.spacing(1,0),
+                    ['& p']: {
+                      textAlign: 'left'
+                    }
+                  })}
                 />
                 </Button>
                 {totals.length - 1 !== index && (

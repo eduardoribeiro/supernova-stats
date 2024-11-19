@@ -5,6 +5,7 @@ import DetailComponentList from '../../components/DetailComponentList';
 import ComponentDetails from '../../components/ComponentDetails';
 import { Tab, TabPanel, Tabs } from '@icapitalnetwork/supernova-core';
 import DetailComponentTree from '../../components/DetailComponentTree';
+import DetailFileTree from '../../components/DetailFileTree';
 
 const Dashboard = () => {
   const { totals, selectedData, handleClick, selectedComponent, handleSelectComponent, componentDetailsOpen,
@@ -21,7 +22,7 @@ const Dashboard = () => {
           {selectedData.length > 0 && (
           <Tabs value={tabValue} onChange={(_, newTabValue) => { setTabValue(newTabValue); handleSelectComponent(undefined); }}>
               <Tab label="List" />
-              <Tab label="Tree" />
+              <Tab label="ComponentTree" />
             </Tabs>
           )}
           {selectedData.length > 0 && tabValue === 1 && <DetailComponentTree selectedPackage={selectedData} action={handleSelectComponent}  getComponentData={getComponentData} getSharedDepedency={getSharedDepedency} />}
@@ -34,9 +35,11 @@ const Dashboard = () => {
           {selectedData.length > 0 && (
             <Tabs value={tabValue} onChange={(_, newTabValue) => { setTabValue(newTabValue); handleSelectComponent(undefined); }}>
               <Tab label="List" />
-              <Tab label="Tree" />
+              <Tab label="ComponentTree" />
+              <Tab label="FileTree" />
             </Tabs>
           )}
+          {selectedData.length > 0 && tabValue === 2 && <DetailFileTree selectedPackage={selectedData} action={handleSelectComponent}  getComponentData={getComponentData} getSharedDepedency={getSharedDepedency} />}
           {selectedData.length > 0 && tabValue === 1 && <DetailComponentTree selectedPackage={selectedData} action={handleSelectComponent}  getComponentData={getComponentData} getSharedDepedency={getSharedDepedency} />}
           {selectedData.length > 0 && tabValue === 0 && <DetailComponentList selectedPackage={selectedData} action={handleSelectComponent} />}
           {selectedComponent.length > 0 && <ComponentDetails selectedComponent={selectedComponent} getSharedDepedency={getSharedDepedency} open={componentDetailsOpen} toggleDrawer={toggleDrawer} />}

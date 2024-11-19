@@ -8,7 +8,6 @@ import {
 } from '@icapitalnetwork/supernova-core';
 import { CountedDataItem } from '../../modules/Dashboard/hooks/useDashboard';
 
-import { USERLOC } from '../../main';
 import CustomIcon from '../CustomIcon';
 
 type SubDetailComponentTreeProps = {
@@ -31,13 +30,13 @@ const SubDetailComponentTree: SubDetailComponentTreeType = ({
   getSharedDepedency,
   reactKey,
 }) => {
-  const primary = componentData.location?.file?.replaceAll(`${USERLOC}icn/icn_react/src`, "");
-  const primaryComponent = primary?.match("components\/[^\/]*\/[^\/]*\/")?.pop();
+  const primary = componentData.location?.file?.replace(/.*\/icn_react\/src/, "");
+  const primaryComponent = primary?.match("(components|containers)(\/[^\/]*)*")?.pop();
   const sharedDependency = primaryComponent && getSharedDepedency(primaryComponent, false) || undefined;
   const subDependency = primary && getSharedDepedency(primary, true) || undefined;
 
   if (subDependency && subDependency.length)
-    console.log(reactKey.replaceAll(`${USERLOC}icn/icn_react/src`, ''), subDependency)
+    console.log(primaryComponent, subDependency)
 
   return (
     <TreeItem
@@ -59,7 +58,13 @@ const SubDetailComponentTree: SubDetailComponentTreeType = ({
             <TreeItem 
               key={`${reactKey}-sub-${subData.importInfo?.imported || subData.importInfo?.local}`}
               nodeId={`${reactKey}-sub-${subData.importInfo?.imported || subData.importInfo?.local}`}
-              label={<Stack direction="row" alignItems="center"><Chip color="warning" sx={{ minWidth: 35 }} label={subData.count} size="small"></Chip><Typography sx={(theme) => ({ padding: theme.spacing(0, 0.5) })}>{subData.importInfo?.local}</Typography><CustomIcon icon={subData?.detail ?? null} /></Stack>}
+              label={
+                <Stack direction="row" alignItems="center">
+                  <Chip color="warning" sx={{ minWidth: 35 }} label={subData.count} size="small"></Chip>
+                  <Typography sx={(theme) => ({ padding: theme.spacing(0, 0.5) })}>{subData.importInfo?.local}</Typography>
+                  <CustomIcon icon={subData?.detail ?? null} />
+                </Stack>
+              }
             />
           ) }
         </Box>
