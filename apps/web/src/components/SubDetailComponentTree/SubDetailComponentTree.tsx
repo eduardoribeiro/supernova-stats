@@ -31,7 +31,7 @@ const SubDetailComponentTree: SubDetailComponentTreeType = ({
   reactKey,
 }) => {
   const primary = componentData.location?.file?.replace(/.*\/icn_react\/src/, "");
-  const primaryComponent = primary?.match("(components|containers)(\/[^\/]*)*")?.pop();
+  const primaryComponent = primary?.match("(components|containers|modules)(\/[^\/]*)*")?.pop();
   const sharedDependency = primaryComponent && getSharedDepedency(primaryComponent, false) || undefined;
   const subDependency = primary && getSharedDepedency(primary, true) || undefined;
 

@@ -162,7 +162,7 @@ const DetailFileTree: DetailFileTreeType = ({
           component: instance?.importInfo?.local,
           count: instance?.count,
           fileTree: instance?.location?.file?.replace(/.*\/icn_react\/src/, '').split('/').slice(1),
-          shared: () => getSharedDepedency(instance?.location?.file?.replace(/.*\/icn_react\/src/, '') ?? '', true)
+          shared: () => getSharedDepedency(instance?.location?.file?.replace(/.*\/icn/, '') ?? '', true)
         })
       ));
 
