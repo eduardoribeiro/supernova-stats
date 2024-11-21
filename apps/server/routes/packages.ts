@@ -29,10 +29,14 @@ function getPackageById(id: number) {
 
 function getPackageByName(packageName: string) {
   return new Promise((resolve, reject) => {
-    db.all('SELECT * FROM packages where name=(?)', packageName, (err: Error | null, rows: unknown) => {
-      if (err) reject(err)
-      else resolve(rows)
-    })
+    db.all(
+      'SELECT * FROM packages where name=(?)',
+      packageName,
+      (err: Error | null, rows: unknown) => {
+        if (err) reject(err)
+        else resolve(rows)
+      },
+    )
   })
 }
 

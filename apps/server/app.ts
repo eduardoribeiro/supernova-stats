@@ -1,8 +1,8 @@
 import express from 'express'
 import cors from 'cors'
-import bodyParser from 'body-parser';
+import bodyParser from 'body-parser'
 import { projects, packages, updates } from './routes'
-import { GenericObject, UsageDetails } from './types';
+import { GenericObject, UsageDetails } from './types'
 
 const app = express()
 app.use(cors())
@@ -76,16 +76,16 @@ app.delete('/project/:id', async function (req, res) {
 app.post('update-stats/:packageName/:projectName', async function (req, res) {
   const packageName: string = req.params.packageName
   const projectName: string = req.params.projectName
-  const data: GenericObject<number>[] = req.body
+  const data: GenericObject<number> = req.body
   await updates.updateStats(projectName, packageName, data)
-  res.send({message: 'Success'})
+  res.send({ message: 'Success' })
 })
 
 app.post('update-usage/:projectName', async function (req, res) {
   const projectName = req.params.projectName
   const data: UsageDetails = req.body
   await updates.updateUsage(projectName, data)
-  res.send({message: 'Success'})
+  res.send({ message: 'Success' })
 })
 
 export default app

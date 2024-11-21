@@ -20,10 +20,14 @@ function getProjectById(id: number) {
 
 function getProjectByName(projectName: string) {
   return new Promise((resolve, reject) => {
-    db.all('SELECT * FROM projects where name=(?)', projectName, (err: Error | null, rows: unknown) => {
-      if (err) reject(err)
-      else resolve(rows)
-    })
+    db.all(
+      'SELECT * FROM projects where name=(?)',
+      projectName,
+      (err: Error | null, rows: unknown) => {
+        if (err) reject(err)
+        else resolve(rows)
+      },
+    )
   })
 }
 
