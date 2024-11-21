@@ -40,14 +40,14 @@ CREATE TABLE components (
 );
 
 CREATE TABLE usage (
-    id INTEGER PRIMARY KEY,
-    componentId INTEGER NOT NULL,
-    projectId INTEGER NOT NULL,
-    file TEXT NOT NULL,
-    propsSpread INTEGER NOT NULL,
-    moduleName TEXT NOT NULL,
-    importedType TEXT NOT NULL,
-    props BLOB,
-    FOREIGN KEY(componentId) REFERENCES components(id),
-    FOREIGN KEY(projectId) REFERENCES packages(id)
+  id INTEGER PRIMARY KEY,
+  componentId INTEGER NOT NULL,
+  projectId INTEGER NOT NULL,
+  file TEXT NOT NULL,
+  propsSpread INTEGER NOT NULL,
+  moduleName TEXT NOT NULL,
+  importedType TEXT NOT NULL,
+  props BLOB,
+  FOREIGN KEY(componentId) REFERENCES components(id),
+  FOREIGN KEY(projectId) REFERENCES packages(id)
 );
